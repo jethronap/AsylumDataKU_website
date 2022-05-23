@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Reporting Website</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -24,14 +24,14 @@
       <!-- Sidebar -->
       <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
-          <li class="sidebar-brand"><a href="#">Start Bootstrap</a></li>
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">Shortcuts</a></li>
-          <li><a href="#">Overview</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">About</a></li>
+          <li class="sidebar-brand"><a href="#">Table of Contents</a></li>
+          <li><a id="UH-analysis">UH analysis</a></li>
+          <li><a id="UH-topic-models">UH topic models</a></li>
+          <li><a id="ALL-analysis">ALL analysis</a></li>
+          <li><a id="ALL-topic-models">All topic models</a></li>
+          <!-- <li><a href="#">About</a></li>
           <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#">Contact</a></li> -->
         </ul>
       </div>
 
@@ -40,16 +40,18 @@
         <div class="content-header">
           <h1>
             <a id="menu-toggle" href="#" class="btn btn-default"><i class="icon-reorder"></i></a>
-            Simple Sidebar
+            Reporting on Flygtningenævnet Open Database
           </h1>
         </div>
         <!-- Keep all page content within the page-content inset div! -->
         <div class="page-content inset">
           <div class="row">
-            <div class="col-md-12">
-              <p class="lead">This simple sidebar template has a hint of JavaScript to make the template responsive. It also includes Font Awesome icon fonts.</p>
+            <div id="main_body">
+              <!-- <p class="lead">This simple webpage is used to have a place for easy access to the analysis of Refugee Appeals Board Data.</p> -->
+              <!-- <object type="text/html" src="https://jethronap.github.io/UH_analysis.html" width="800px" height="600px" style="overflow:auto;border:5px ridge rgb(115, 115, 117)">
+              </object> -->
             </div>
-            <div class="col-md-6">
+            <!-- <div class="col-md-6">
               <p class="well">The template still uses the default Bootstrap rows and columns.</p>
             </div>
             <div class="col-md-6">
@@ -63,7 +65,7 @@
             </div>
             <div class="col-md-4">
               <p class="well">You get the idea! Do whatever you want in the page content area!</p>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -80,6 +82,31 @@
         e.preventDefault();
         $("#wrapper").toggleClass("active");
     });
+    /* create event handler that loads content into main area when navigation link is clicked */
+    $(document).ready(function () {
+      $('#UH-analysis').click(function(){
+        $('#main_body').load('/UH_analysis.html');
+      });
+    });
+    /* create event handler that loads content into main area when navigation link is clicked */
+    $(document).ready(function () {
+      $('#UH-topic-models').click(function(){
+        $('#main_body').load('/UH_topic_models.html');
+      });
+    });
+    /* create event handler that loads content into main area when navigation link is clicked */
+    $(document).ready(function () {
+      $('#ALL-analysis').click(function(){
+        $('#main_body').load('/ALL_analysis.html');
+      });
+    });
+    /* create event handler that loads content into main area when navigation link is clicked */
+    $(document).ready(function () {
+      $('#ALL-topic-models').click(function(){
+        $('#main_body').load('/All_topic_models-Copy1.html');
+      });
+    });
+  </script>
     </script>
   </body>
 </html>
