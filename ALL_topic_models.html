@@ -14995,82 +14995,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Probabilistic, generative model which uncovers the topics latent to a dataset by assigning weights to words in a corpus, where each topic will assign different probability weights to each word.</p>
-<p>For a given corpus, a topic model estimates a topic distribution for each of its documents (i.e., a a distribution of weights over a set of topics), where a topic is itself a distribution of weights over the vocabulary of the corpus. The most weighted words of each topic are syntactically and/or semantically related, given that collection of documents. This means that two distinct topics share the exact same vocabulary, but have different weight distributions.</p>
-<p>The LDA algorithm first models documents via a mixture model of topics. From these topics, words are then assigned weights based on the probability distribution of these topics. It is this probabilistic assignment over words that allow a user of LDA to say how likely a particular word falls into a topic. Subsequently from the collection of words assigned to a particular topic, are we thus able to gain an insight as to what that topic may actually represent from a lexical point of view.</p>
-<p>REFs here <a href="https://scikit-learn.org/stable/modules/decomposition.html#latentdirichletallocation">1</a> and <a href="https://arxiv.org/pdf/1405.0099.pdf">2</a>.</p>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Assumptions:</p>
-<ul>
-<li>Each document is just a collection of words or a “bag of words”. Thus, the order of the words and the grammatical role of the words (subject, object, verbs, …) are not considered in the model.</li>
-<li>Words like am/is/are/of/a/the/but/… don’t carry any information about the “topics” and therefore can be eliminated from the documents as a preprocessing step. In fact, we can eliminate words that occur in at least %80 ~ %90 of the documents, without losing any information. For example, if our corpus contains only medical documents, words like human, body, health, etc might be present in most of the documents and hence can be removed as they don’t add any specific information which would make the document stand out.</li>
-<li>We know beforehand how many topics we want. ‘k’ is pre-decided.</li>
-<li>All topic assignments except for the current word in question are correct, and then updating the assignment of the current word using our model of how documents are generated</li>
-</ul>
-<p>REFS <a href="https://towardsdatascience.com/latent-dirichlet-allocation-lda-9d1cd064ffa2">1</a></p>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ul>
-<li>A document is a probability distribution of topics, and every topic is a probability distribution of words.</li>
-<li>What LDA does is that when you fit it with all those document, it is trying its best to find the best topic mix and the best word mix.</li>
-</ul>
-<p>Assumptions of LDA for Topic Modelling:</p>
-<ul>
-<li>Documents with similar topics use similar groups of words</li>
-<li>Latent topics can then be found by searching for groups of words that frequently occur together in documents across the corpus</li>
-<li>Documents are probability distributions over latent topics which signifies certain document will contain more words of a specific topic.</li>
-</ul>
-<p>Limitations:</p>
-<ul>
-<li>Fixed K (the number of topics is fixed and must be known ahead of time) There is limit to amount of topics we can generate</li>
-<li>Uncorrelated topics (Dirichlet topic distribution cannot capture correlations)</li>
-<li>Non-hierarchical (in data-limited regimes hierarchical models allow sharing of data)</li>
-<li>Static (no evolution of topics over time)</li>
-<li>Bag of words (assumes words are exchangeable, sentence structure is not modelled)</li>
-<li>Unsupervised (sometimes weak supervision is desirable, e.g. in sentiment analysis)</li>
-</ul>
-
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Coherence-Score:">Coherence Score:<a class="anchor-link" href="#Coherence-Score:">&#182;</a></h3><p>Compute the coherence score is essentially a measure of how similar the words assigned to each topic are in terms of semantic value. The higher the score, the better.</p>
-<p>Compute the coherence score for LDA models with 2 to 10 topics and see which number of topics leads to the highest coherence score.</p>
-<p>Topic coherence in essence measures the human interpretability of a topic model. Traditionally perplexity has been used to evaluate topic models however this does not correlate with human annotations at times. Topic coherence is another way to evaluate topic models with a much higher guarantee on human interpretability. Thus this can be used to compare different topic models among many other use-cases.</p>
-
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
@@ -15232,19 +15158,6 @@ if(typeof(LDAvis) !== "undefined"){
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Non-Negative Matrix Factorization (NMF) is an unsupervised technique so there are no labeling of topics that the model will be trained on. The way it works is that, NMF decomposes (or factorizes) high-dimensional vectors into a lower-dimensional representation. These lower-dimensional vectors are non-negative which also means their coefficients are non-negative.</p>
-<p>Non-Negative Matrix Factorization is a statistical method that helps us to reduce the dimension of the input corpora. Internally, it uses the factor analysis method to give comparatively less weightage to the words that are having less coherence</p>
-<p>REFs here <a href="https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.NMF.html#sklearn.decomposition.NMF">1</a>, <a href="https://towardsdatascience.com/topic-modeling-articles-with-nmf-8c6b2a227a45">2</a></p>
-
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
@@ -15284,8 +15197,7 @@ if(typeof(LDAvis) !== "undefined"){
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>The numbers inside the parentheses are the percentages with which the words contribute to the topics. Due to the large number of words, the individual contributions are quite small. The percentages of the words within a topic are a good indication for the quality of the topic model. If the percentage within a topic is rapidly decreasing, the topic is well-defined, whereas slowly decreasing word probabilities indicate a less-pronounced topic. It’s much more difficult to intuitively find out how well the topics are separated;</p>
-<p><strong>CONS</strong>- Works best with shorter texts such as tweets or titles.</p>
+<p>The numbers inside the parentheses are the percentages with which the words contribute to the topics.</p>
 
 </div>
 </div>
@@ -15402,44 +15314,6 @@ if(typeof(LDAvis) !== "undefined"){
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Latent-Semantic-Analysis/Indexing:">Latent Semantic Analysis/Indexing:<a class="anchor-link" href="#Latent-Semantic-Analysis/Indexing:">&#182;</a></h3>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Similar analysis to NMF but using a different algorithm: Singular Value Decomposition (SVD).</p>
-<p>Latent semantic indexing (LSI) is an indexing and retrieval method that uses a mathematical technique called singular value decomposition (SVD) to identify patterns in the relationships between the terms and concepts contained in an unstructured collection of text. LSI is based on the principle that words that are used in the same contexts tend to have similar meanings. A key feature of LSI is its ability to extract the conceptual content of a body of text by establishing associations between those terms that occur in similar contexts.</p>
-<p>The method, also called latent semantic analysis (LSA), uncovers the underlying latent semantic structure in the usage of words in a body of text and how it can be used to extract the meaning of the text in response to user queries, commonly referred to as concept searches. Queries, or concept searches, against a set of documents that have undergone LSI will return results that are conceptually similar in meaning to the search criteria even if the results don’t share a specific word or words with the search criteria.</p>
-<p>With the rank reduction of the original matrix, what we have is an approximation of the document-term matrix, with a new representation of each document in our corpus. The idea behind LSA is that the original corpus consists of a multitude of terms that in essence have the same meaning. The original matrix can in this sense be viewed as an obscured version of the underlying latent structure we discover when the redundant dimensions are forced together.</p>
-<p>"Singlular Value Decomposition (SVD) allows us to reduce the dimensionality of a matrix. Instead of analyzing a full document-term matrix with all documents and all terms, we can reduce the matrix into a lower rank representation. In this, we combine the meaning of terms by compressing the number of columns.</p>
-<p>REFs here <a href="https://simonpaarlberg.com">1</a></p>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>To reduce the size of our matrix without losing much quality, we can perform a low-rank approximation on matrix C. This is done by keeping the top k values of Σ and setting the rest to zero, where k is the new rank. Since Σ contains eigenvalues in descending order, and the effect of small eigenvalues on matrix products is small, the zeroing of the lowest values will leave the reduced matrix C' approximate to C. How to retrieve the most optimal k is not an easy task, since we want k top large enough to include as much variety as possible from our original matrix C, but small enough to exclude sampling errors and redundancy. To do this in a formal way, the Frobenius norm can be applied to measure the discrepancy between C and C_k. A less extensive way is just to try out a couple of different k-values and see what generates the best results."</p>
-<p>LSA tries to leverage the context around the words to capture the hidden or latent concepts, which are called topics. Conceive SVD as rearranging documents and words in a way to uncover a block structure in the document-term matrix.</p>
-<p>The idea of SVD is finding the most valuable information and using lower dimension t to represent the same thing.</p>
-<p><strong>Disadvantages of LSA</strong></p>
-<ol>
-<li>Since it is a linear model, it might not do well on datasets with non-linear dependencies.</li>
-<li>LSA assumes a Gaussian distribution of the terms in the documents, which may not be true for all problems.</li>
-<li>LSA involves SVD, which is computationally intensive and hard to update as new data comes up.</li>
-<li>Lack of interpretable embeddings (we don’t know what the topics are, and the components may be arbitrarily positive/negative)</li>
-<li>Need for a really large set of documents and vocabulary to get accurate results</li>
-<li>It provides less efficient representation</li>
-</ol>
-
 </div>
 </div>
 </div>

@@ -25,6 +25,7 @@
       <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
           <li class="sidebar-brand"><a href="#">Table of Contents</a></li>
+          <li><a id="theory">Theoretical aspects</a></li>
           <li><a id="UH-analysis">UH analysis</a></li>
           <li><a id="UH-topic-models">UH topic models</a></li>
           <li><a id="ALL-analysis">ALL analysis</a></li>
@@ -84,24 +85,18 @@
     });
     /* create event handler that loads content into main area when navigation link is clicked */
     $(document).ready(function () {
+      $('#theory').click(function(){
+        $('#main_body').load('/theory.html');
+      });
       $('#UH-analysis').click(function(){
         $('#main_body').load('/UH_analysis.html');
       });
-    });
-    /* create event handler that loads content into main area when navigation link is clicked */
-    $(document).ready(function () {
       $('#UH-topic-models').click(function(){
         $('#main_body').load('/UH_topic_models.html');
       });
-    });
-    /* create event handler that loads content into main area when navigation link is clicked */
-    $(document).ready(function () {
       $('#ALL-analysis').click(function(){
         $('#main_body').load('/ALL_analysis.html');
       });
-    });
-    /* create event handler that loads content into main area when navigation link is clicked */
-    $(document).ready(function () {
       $('#ALL-topic-models').click(function(){
         $('#main_body').load('/ALL_topic_models.html');
       });

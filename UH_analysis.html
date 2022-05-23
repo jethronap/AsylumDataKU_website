@@ -16049,19 +16049,6 @@ class="
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><strong>N-grams</strong> are neighboring sequences of items (words, letters, symbols) in a document.</p>
-<p>Most of the times a probability is assigned to the occurrence of a N-gram (or a word occurring next in a sequence of words). This can help decide which N-grams can be chunked together to form single entities or make predictions for next words (other possible use cases include spelling corrections).</p>
-<p><a href="https://web.stanford.edu/~jurafsky/slp3/slides/LM_4.pdf">Here</a>, are some slides from Stanford which provide an introduction to N-gram models and the math that goes with it.</p>
-
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
@@ -16098,24 +16085,6 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="TF-IDF">TF-IDF<a class="anchor-link" href="#TF-IDF">&#182;</a></h2>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><strong>Term Frequency (TF):</strong></p>
-<p>The number of times a word appears in a document divded by the total number of words in the document. Every document has its own term frequency.</p>
-<p>A value close to 1 indicates this term is very important to the document — and primarily composed of it. A low value could mean this term is not very important.</p>
-<p><strong>Inverse Data Frequency (IDF):</strong></p>
-<p>The log of the number of documents divided by the number of documents that contain the word w. Inverse data frequency determines the weight of rare words across all documents in the corpus.</p>
-<p>A value close to 0 indicates the term is very common — and not very helpful in differentiating this document from another. A higher value indicates the term is not very common and could be crucial to understanding the theme of this document.</p>
-<p>The <strong>TF-IDF</strong> is the multiplication of TF by IDF.</p>
-<p>A value close to 0 indicates the term is not important either in the corpus or the document or both. A larger value indicates the term is unique for the document or the corpus or both. This value works best in relation to other terms in the same document, and other documents.</p>
-
 </div>
 </div>
 </div>
