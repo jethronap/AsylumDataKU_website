@@ -1,7 +1,7 @@
 <!-- docs/_sidebar.md -->
 
 
-* [HOME](./)
+* [HOME](./index.md)
 * [Theory](./theory/theory)
 * [Analysis](./analysis/index)
   * [Unknown Homeland](./analysis/UH/UH_analysis)
