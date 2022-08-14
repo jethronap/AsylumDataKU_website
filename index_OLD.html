@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Reporting Website</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div id="wrapper">
+
+      <!-- Sidebar -->
+      <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+          <li class="sidebar-brand"><a href="/index.html">Table of Contents</a></li>
+          <li><a id="theory">Theoretical aspects</a></li>
+          <li><a id="UH-analysis">UH analysis</a></li>
+          <li><a id="UH-topic-models">UH topic models</a></li>
+          <li><a id="ALL-analysis">ALL analysis</a></li>
+          <li><a id="ALL-topic-models">ALL topic models</a></li>
+          <!-- <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li> -->
+        </ul>
+      </div>
+
+      <!-- Page content -->
+      <div id="page-content-wrapper">
+        <div class="content-header">
+          <h1>
+            <a id="menu-toggle" href="#" class="btn btn-default"><i class="icon-reorder"></i></a>
+            Reporting on Flygtningenævnet Open Database
+          </h1>
+        </div>
+        <!-- Keep all page content within the page-content inset div! -->
+        <div class="page-content inset">
+          <div class="row">
+            <div id="main_body">
+              <p class="lead">This simple webpage is used for easy access and reporting on the analysis of Refugee Appeals Board Data.</p>
+            </div>
+            <div class="col-md-6">
+              <p class="well">Use the sidebar on the left to see each section.</p>
+            </div>
+            <div class="col-md-9">
+              <p class="well">The source code for this project is hosted on Github. (<a href="https://github.com/jethronap/AsylumData_KU">source code</a>)</p>
+              <p class="well">The source code for this website is also hosted on Github. (<a href="https://github.com/jethronap/jethronap.github.io">source code</a>)</p>
+            </div>
+                          <!-- <p class="lead">This simple webpage is used to have a place for easy access to the analysis of Refugee Appeals Board Data.</p> -->
+              <!-- <object type="text/html" src="https://jethronap.github.io/UH_analysis.html" width="800px" height="600px" style="overflow:auto;border:5px ridge rgb(115, 115, 117)">
+              </object> -->
+
+            <!-- <div class="col-md-6">
+              <p class="well">The template still uses the default Bootstrap rows and columns.</p>
+            </div>
+            <div class="col-md-6">
+              <p class="well">But the full-width layout means that you wont be using containers.</p>
+            </div>
+            <div class="col-md-4">
+              <p class="well">Three Column Example</p>
+            </div>
+            <div class="col-md-4">
+              <p class="well">Three Column Example</p>
+            </div>
+            <div class="col-md-4">
+              <p class="well">You get the idea! Do whatever you want in the page content area!</p>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Custom JavaScript for the Menu Toggle -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("active");
+    });
+    /* create event handler that loads content into main area when navigation link is clicked */
+    $(document).ready(function () {
+      $('#theory').click(function(){
+        $('#main_body').load('/theory.html');
+      });
+      $('#UH-analysis').click(function(){
+        $('#main_body').load('/UH_analysis.html');
+      });
+      $('#UH-topic-models').click(function(){
+        $('#main_body').load('/UH_topic_models.html');
+      });
+      $('#ALL-analysis').click(function(){
+        $('#main_body').load('/ALL_analysis.html');
+      });
+      $('#ALL-topic-models').click(function(){
+        $('#main_body').load('/ALL_topic_models.html');
+      });
+    });
+  </script>
+    </script>
+  </body>
+</html>
