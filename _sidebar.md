@@ -2,7 +2,7 @@
 
 
 * [HOME](./)
-* [Theory](./theory/)
+* [Theory](./theory/theory)
 * [Analysis](./analysis/index)
   * [Unknown Homeland](./analysis/UH/UH_analysis)
   * [Unknown Homeland Topic Anaysis](./analysis/UH/UH_topic_models)
