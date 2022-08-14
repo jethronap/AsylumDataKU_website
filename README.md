@@ -1,3 +1,3 @@
-# jethronap.github.io
+# Confronting Data Lab @ DIKU
 
-Repo for reporting and communicating research results.
+> This project is being realized at the Computer Science department of Copenhagen University (KU)
