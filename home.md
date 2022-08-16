@@ -18,7 +18,7 @@ Under **Analysis** tab you can see:
 - Results from text mining and exploratory analysis of text regarding to case that we marked as Unknown Homeland and all other cases.
 - The topics produced after implementing LDA, NMF and LSI.
 
-Under **People** tab you can see some infos about all the beautifull person involved in the project.
+Under **People** tab you can see some infos about all the beautifull persons involved in the project.
 
 Finally, you can use the sidebar to navigate to the various sections of this report.
 Also, you can minimize it by clicking on the three dashes at the left bottom side of this page.
