@@ -1,8 +1,15 @@
 <!-- /_sidebar.md -->
 
 
-* [HOME](./home.md)
+* [HOME](./home)
 * [Theory](./theory/theory)
+  * [N-grams](./theory/ngrams)
+  * [TF-IDF](./theory/tfidf)
+  * [Latent Dirichlet Allocation](./theory/lda)
+  * [Non-Negative Matrix Factorization](./theory/nmf)
+  * [Latent Semantic Analysis/Indexing](./theory/lsi)
+  * [Coherence Score](./theory/coherence)
+  * [pyLDAVis](./theory/pyLDAvis)
 * [Analysis](./analysis/index)
   * [Unknown Homeland](./analysis/UH/UH_analysis)
   * [Unknown Homeland Topic Anaysis](./analysis/UH/UH_topic_models)
