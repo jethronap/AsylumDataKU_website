@@ -287,7 +287,7 @@ Create a numeric column in order to get a feel about the length of the texts.
 
 
     
-![png](ALL_analysis_files/ALL_analysis_14_1.png)
+![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_14_1.png)
     
 
 
@@ -527,7 +527,7 @@ Plot top ten countries:
 
 
     
-![png](ALL_analysis_files/ALL_analysis_24_0.png)
+![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_25_0.png)
     
 
 
@@ -544,7 +544,7 @@ Plot decision:
 
 
     
-![png](ALL_analysis_files/ALL_analysis_29_1.png)
+![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_30_1.png)
     
 
 
@@ -641,7 +641,7 @@ Plot decision outcome rate by country:
 
 
     
-![png](ALL_analysis_files/ALL_analysis_32_0.png)
+![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_33_0.png)
     
 
 
@@ -656,7 +656,7 @@ Plot decision outcome rate by country:
 
 
     
-![png](ALL_analysis_files/ALL_analysis_35_1.png)
+![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_36_1.png)
     
 
 
@@ -664,7 +664,7 @@ Plot decision outcome rate by country:
 
 
     
-![png](ALL_analysis_files/ALL_analysis_38_0.png)
+![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_39_0.png)
     
 
 
@@ -672,7 +672,7 @@ Plot Decision Outcome Frequencies by Gender for each Year:
 
 
     
-![png](ALL_analysis_files/ALL_analysis_40_0.png)
+![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_41_0.png)
     
 
 
@@ -701,13 +701,13 @@ Plot ten most frequent asylum motives:
 
 
 
-    Text(0, 0.5, 'frequency')
+    Text(0, 0.5, 'Frequency')
 
 
 
 
     
-![png](ALL_analysis_files/ALL_analysis_44_1.png)
+![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_45_1.png)
     
 
 
@@ -794,22 +794,293 @@ Merge categories and count again:
 See some context:
 
     10 random samples out of 467 contexts for 'bidoon':
-    irer i Irak og/eller Kuwait. Nævnet forkaster derfor ansøgernes forklaringer om, at de er statsløse  bidoon ere fra Kuwait som utroværdig. Det bemærkes i den forbindelse videre, at ingen af ansøgerne har haft
-    stadfæstede i juli 2021 Udlændingestyrelsens afgørelse vedrørende en mandlig asylansøger angiveligt  bidoon  Kuwait. Indrejst 2016.”Ansøgeren er, den angiveligt statsløse bidoon fra Kuwait og som er etnisk ar
-        Nævnet stadfæstede i oktober 2018 Udlændingestyrelsens afgørelse vedrørende en mandlig statsløs  bidoon  fra Kuwait. Indrejst i 2015. Flygtningenævnet udtalte: ”Ansøgeren er etnisk araber og sunni-muslim 
-    ait samt parrets tre børn. Indrejst i 2015.Flygtningenævnet udtalte:”Ansøgerne har oplyst, at de er  bidoon s (statsløse) fra Suleibiyeh, Kuwait, etniske arabere og shia-muslimer af trosretning. Ansøgerne har
     ner i Kuwait, der er årsag til hans udrejse. Det fremgår af baggrundsoplysninger om situationen for  bidoon er i Kuwait, at etniske bidoonere udsættes for diskrimination, og at de har begrænsede rettigheder. 
-    , som efter hans skøn kan få betydning i sagen. Ansøgeren har hertil forklaret, at han som statsløs  bidoon  slet ikke har nogen dokumenter. Nævnet finder herefter ikke, at ansøgerens fremlæggelse af kopier a
-    ningenævnet lægger i overensstemmelse med Udlændingestyrelsens afgørelse til grund, at ansøgerne er  bidoon ere fra Kuwait. Flygtningenævnet kan ikke lægge ansøgernes forklaringer om asylmotiver til grund, id
-    til fordel for bidooneres rettigheder. Ansøgeren har endvidere henvist til, at han som uregistreret  bidoon  ikke har nogen rettigheder i Kuwait. Ansøgeren har til støtte for sit asylmotiv oplyst, at han fra 
-    lygtningenævnet, at det forekommer påfaldende, at ansøgerens far, som ifølge ansøgeren var statsløs  bidoon  fra Kuwait, skulle have været ansat i militæret i Kuwait, inden familien rejste til Irak, da ansøge
-     som følge af, at han angiveligt skulle være ateist. Sammenfattende, og da de generelle forhold for  bidoon s i Kuwait ikke er af en sådan karakter, at de kan begrunde asyl, finder Flygtningenævnet ikke, at a
+    n) fra Kuwait. Indrejst i 2015.Flygtningenævnet udtalte: ”Ansøgeren har oplyst, at han er statsløs ( bidoon ) og shia muslim fra […], Kuwait. Ansøgeren har ikke været medlem af politiske eller religiøse foren
+     Flygtningenævnet udtalte: ”Ansøgeren er etnisk araber og shia-muslim. Ansøgeren har oplyst at være  bidoon  (statsløs) fra [A], Kuwait. Ansøgeren har ikke været medlem af politiske eller religiøse foreninger
+    e: ”Den mandlige ansøger er etnisk araber og shiamuslim. Den mandlige ansøger har oplyst, at han er  bidoon  (statsløs) fra […], Al-Ahmadi, Kuwait. Den mandlige ansøger har deltaget i én demonstration til for
+    ns han ved indrejse i Danmark har oplyst navnet [D], født [i efteråret] 1993, og at han er statsløs  bidoon  fra Kuwait. Hertil kommer, at de af ansøgeren fremlagte dokumenter, der angiveligt vedrører hans fa
+    gernes forklaringer om, at de hos de græske myndigheder tre gange forsøgte at blive registreret som  bidoon er, forklarer ikke, hvorfor ansøgerne oplyste et andet navn eller en anden fødselsdato, ligesom ansø
+    nsøgeren underskrev et dokument, som forpligtede ansøgeren til at videregive oplysninger om, hvilke  bidoon ere, som havde deltaget i demonstrationer. Lederen af politistationen orienterede ansøgeren om, at d
+    tte herfor oplyst, at han deltog i en demonstration [i sommeren] 2014, i byen Taima for statsløses ( bidoon eres) rettigheder. Omkring 30 minutter efter demonstrationens start greb myndighederne ind, hvorefte
+    uwait. Indrejst i 2015. Flygtningenævnet udtalte: ”Ansøgeren er etnisk araber, angiveligt statsløs ( bidoon ) og shia-muslim fra Slaybia, Kuwait. Ansøgeren har ikke været medlem af politiske eller religiøse f
+    015. Flygtningenævnet udtalte: ”Ansøgerne er etnisk araber, shiamuslim af trosretning og angiveligt  bidoon ere (statsløs) fra Taima i al-Jahra, Kuwait. Ansøgerne har ikke været medlem af politiske eller reli
 
 
 Decision outcomes for bidooners outside Unknown Homeland.
 
 
     
-![png](ALL_analysis_files/ALL_analysis_53_0.png)
+![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_54_0.png)
+    
+
+
+# Natural Language Processing:
+
+
+## Frequency analysis:
+
+Here the most frequent tokens in the **whole** corpus are counted.
+
+The table below presents top ten words.
+
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>freq</th>
+    </tr>
+    <tr>
+      <th>token</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>ansøger</th>
+      <td>134357</td>
+    </tr>
+    <tr>
+      <th>klager</th>
+      <td>36862</td>
+    </tr>
+    <tr>
+      <th>lægge</th>
+      <td>27478</td>
+    </tr>
+    <tr>
+      <th>stk</th>
+      <td>25983</td>
+    </tr>
+    <tr>
+      <th>finde</th>
+      <td>25739</td>
+    </tr>
+    <tr>
+      <th>forklare</th>
+      <td>25148</td>
+    </tr>
+    <tr>
+      <th>grund</th>
+      <td>21476</td>
+    </tr>
+    <tr>
+      <th>udlændingelov</th>
+      <td>21365</td>
+    </tr>
+    <tr>
+      <th>forklaring</th>
+      <td>20625</td>
+    </tr>
+    <tr>
+      <th>asylmotiv</th>
+      <td>18889</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+    
+![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_58_0.png)
+    
+
+
+## N-gram analysis:
+
+
+
+
+    Text(0, 0.5, 'Frequencies')
+
+
+
+
+    
+![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_62_1.png)
+    
+
+
+## TF-IDF
+
+
+Below is the shape of the resulting vector of the vocabulary created from the given context.
+
+
+
+
+
+    (8963, 50262)
+
+
+
+Ten random words from the vocabulary:
+
+
+
+
+
+    ['omgjorde',
+     '2022',
+     'udlændingestyrels',
+     'afgørelse',
+     'sag',
+     'statusændring',
+     'vedrørende',
+     'kvindelig',
+     'statsborger',
+     'syrien']
+
+
+
+Peek at the IDF values array:
+
+
+
+
+
+    array([9.40782465, 9.40782465, 8.71467747, ..., 9.40782465, 9.40782465,
+           8.71467747])
+
+
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>doc</th>
+      <th>keywords</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>omgjorde 2022 udlændingestyrels afgørelse sag ...</td>
+      <td>{'klager': 0.443, 'exmand': 0.255, 'syrien': 0...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>hjemvise 2021 udlændingestyrels afgørelse sag ...</td>
+      <td>{'storesøster': 0.493, 'klager': 0.469, 'ansøg...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>omgjorde 2022 udlændingestyrels afgørelse sag ...</td>
+      <td>{'eritrea': 0.428, 'klager': 0.364, 'føde': 0....</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>stadfæste 2022 udlændingestyrels afgørelse ved...</td>
+      <td>{'afghanistan': 0.334, 'the': 0.311, 'of': 0.2...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>stadfæste 2022 udlændingestyrels afgørelse ved...</td>
+      <td>{'afghanistan': 0.309, 'the': 0.276, '2021': 0...</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>8958</th>
+      <td>meddele 2004 opholdstilladelse kstatus mandlig...</td>
+      <td>{'dostum': 0.322, 'rang': 0.305, 'khad': 0.291...</td>
+    </tr>
+    <tr>
+      <th>8959</th>
+      <td>meddele 2004 opholdstilladelse fstatus ægtepar...</td>
+      <td>{'afghanistan': 0.473, 'taleban': 0.201, 'magt...</td>
+    </tr>
+    <tr>
+      <th>8960</th>
+      <td>stadfæste 2004 udlændingestyrels afgørelse ved...</td>
+      <td>{'hezbewahdat': 0.392, 'kommandant': 0.267, 'a...</td>
+    </tr>
+    <tr>
+      <th>8961</th>
+      <td>stadfæste 2004 udlændingestyrels afgørelse ved...</td>
+      <td>{'hezbewahdat': 0.456, 'krigstjeneste': 0.287,...</td>
+    </tr>
+    <tr>
+      <th>8962</th>
+      <td>stadfæste 2004 udlændingestyrels afgørelse ved...</td>
+      <td>{'khad': 0.593, 'ansøger': 0.273, 'pdpa': 0.14...</td>
+    </tr>
+  </tbody>
+</table>
+<p>8963 rows × 2 columns</p>
+</div>
+
+
+
+Twenty most common words based on TF-IDF values
+
+
+    [   ('gulbuddin', 0.893),
+        ('letland', 0.866),
+        ('kklan', 0.86),
+        ('honduras', 0.859),
+        ('marjan', 0.837),
+        ('fatima', 0.829),
+        ('hawadleklan', 0.826),
+        ('javed', 0.82),
+        ('gaza', 0.816),
+        ('aslægt', 0.812),
+        ('studiekammerat', 0.795),
+        ('cypern', 0.795),
+        ('ezmary', 0.79),
+        ('xbevægelse', 0.787),
+        ('galadiklan', 0.78),
+        ('g1', 0.764),
+        ('litauen', 0.762),
+        ('murad', 0.759),
+        ('niloufar', 0.758),
+        ('bazmohammad', 0.758)]
+
+
+Plotting the pairs:
+
+
+
+    
+![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_74_0.png)
     
 
