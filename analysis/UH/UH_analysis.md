@@ -194,7 +194,7 @@ We created a numeric variable in order to get a feel about the **length** of the
 </table>
 </div>
 
-We also used a boxplot to visualize the results and get a quick reference for doing some comparisons on-the-fly.
+We also used a **Boxplot** to visualize the results and get a quick reference for doing some comparisons on-the-fly.
     
 ![png](_media/../../../_media/UH_analysis_files/UH_analysis_14_1.png)
     
@@ -385,7 +385,7 @@ The following figure shows ten most frequent asylum motives.
     
 ![png](_media/../../../_media/UH_analysis_files/UH_analysis_49_1.png)
     
-# Distribution of Bidoon cases:
+### Distribution of Bidoon cases:
 
 As one can see from the country of origin distribution, the country with the most references is **Kuwait**. This realization when paired with other results from expert interviews lead the project to focus on **bidooners**. Bidoons are due to historical and political reasons stateless people from Kuwait.
 
@@ -553,7 +553,7 @@ Below we can see 10 random terms from the produced vocabulary:
      'hjemland',
      'indrejst']
 
-The following table presents a peak of the documents and their respective terms with their TF-IDF scores.
+The following table provides a peek at the documents and their respective terms with their TF-IDF scores.
 
 <div>
 <style scoped>
@@ -639,7 +639,7 @@ The following table presents a peak of the documents and their respective terms 
 
 
 
-Finally we can see the top 20 most common words based on their TF-IDF scores.
+Finally, we can see the top 20 most common words based on their TF-IDF scores.
 
 ![png](_media/../../../_media/UH_analysis_files/UH_analysis_93_0.png)
     
