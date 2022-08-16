@@ -259,7 +259,7 @@ Create a numeric column in order to get a feel about the length of the texts.
 
 
     
-![png](UH_analysis_files/UH_analysis_14_1.png)
+![png](_media/../../../_media/UH_analysis_files/UH_analysis_14_1.png)
     
 
 
@@ -387,7 +387,7 @@ Plot decision outcomes:
 
 
     
-![png](UH_analysis_files/UH_analysis_26_1.png)
+![png](_media/../../../_media/UH_analysis_files/UH_analysis_27_1.png)
     
 
 
@@ -399,7 +399,7 @@ Plot decision outcomes by year:
 
 
     
-![png](UH_analysis_files/UH_analysis_30_0.png)
+![png](_media/../../../_media/UH_analysis_files/UH_analysis_31_0.png)
     
 
 
@@ -413,7 +413,7 @@ NOTE: unidentified means that the regex pattern used does not fully yield the ex
 
 
     
-![png](UH_analysis_files/UH_analysis_34_0.png)
+![png](_media/../../../_media/UH_analysis_files/UH_analysis_35_0.png)
     
 
 
@@ -422,7 +422,7 @@ Plot decision outcome rate by gender:
 
 
     
-![png](UH_analysis_files/UH_analysis_36_0.png)
+![png](_media/../../../_media/UH_analysis_files/UH_analysis_37_0.png)
     
 
 
@@ -431,7 +431,7 @@ Plot Decision Outcome Frequencies by Gender for each Year:
 
 
     
-![png](UH_analysis_files/UH_analysis_38_0.png)
+![png](_media/../../../_media/UH_analysis_files/UH_analysis_39_0.png)
     
 
 
@@ -443,7 +443,7 @@ Plot distribution of origin:
 
 
     
-![png](UH_analysis_files/UH_analysis_42_0.png)
+![png](_media/../../../_media/UH_analysis_files/UH_analysis_43_0.png)
     
 
 
@@ -452,7 +452,7 @@ Plot decision outcome rate by origin:
 
 
     
-![png](UH_analysis_files/UH_analysis_44_0.png)
+![png](_media/../../../_media/UH_analysis_files/UH_analysis_45_0.png)
     
 
 
@@ -502,7 +502,7 @@ Plot ten most frequent asylum motives:
 
 
     
-![png](UH_analysis_files/UH_analysis_48_1.png)
+![png](_media/../../../_media/UH_analysis_files/UH_analysis_49_1.png)
     
 
 
@@ -1170,7 +1170,7 @@ Plot ten most frequent asylum motives:
 
 
     
-![png](UH_analysis_files/UH_analysis_53_0.png)
+![png](_media/../../../_media/UH_analysis_files/UH_analysis_54_0.png)
     
 
 
@@ -1178,7 +1178,7 @@ Yearly distribution of Bidoon cases:
 
 
     
-![png](UH_analysis_files/UH_analysis_55_0.png)
+![png](_media/../../../_media/UH_analysis_files/UH_analysis_56_0.png)
     
 
 
@@ -1186,7 +1186,7 @@ Decision outcome rate for Bidoon cases:
 
 
     
-![png](UH_analysis_files/UH_analysis_57_0.png)
+![png](_media/../../../_media/UH_analysis_files/UH_analysis_58_0.png)
     
 
 
@@ -1213,39 +1213,39 @@ Check the context around `efternavn`. See all 18 context instances of term.
 
 
     18 random samples out of 18 contexts for 'efternavn':
-    e myndigheder. Den kvindelige ansøger er ligeledes registreret som værende fra Irak og med et andet  efternavn  end meddelt de danske myndigheder. Den kvindelige ansøger har således indledningsvis til de danske 
-    tivet, jf. nærmere nedenfor – anses for påfaldende, at ansøgeren ved sin ankomst til Danmark brugte  efternavn et [AB], som også er hendes nuværende irakiske ægtefælles efternavn. Sprogtesten kan ikke føre til e
-    s egne oplysninger eller med oplysninger i familiens dokumenter, således at det alene er det sidste  efternavn , som adskiller sig. Disse personer har oplyst, at den mandlige ansøgers mor har boet i Irak. Hertil
-    ejse i Danmark over for de danske myndigheder oplyste, at de var irakiske statsborgere, og at deres  efternavn  var [et andet end oplyst af ansøgerne senere hen]. Ansøgerne er ikke fremkommet med en rimelig fork
+    ingsvis til de danske myndigheder oplyst at have efternavnet [C]. Ved fornyet afhøring i Danmark er  efternavn et angivet som [D], hvilket svarer til den mandlige ansøgers efternavn. I henhold til de græske mynd
+    mark, som han ønskede at bo i nærheden af, og at der er navnesammenfald mellem denne familie og det  efternavn , ansøgeren er registreret med i Grækenland. Der er endvidere sammenfald med familiens nationalitet 
     er, at den kvindelige ansøger [F] ved indrejse i Grækenland er registreret som iraker med [et andet  efternavn ], og den kvindelige ansøger [G] ved indrejse i Ungarn er registreret som syrer med [et andet navn].
-    fornyet afhøring i Danmark er efternavnet angivet som [D], hvilket svarer til den mandlige ansøgers  efternavn . I henhold til de græske myndigheders registreringer har hun imidlertid oplyst efternavnet [E]. Eft
-    igheder. Den kvindelige ansøger har således indledningsvis til de danske myndigheder oplyst at have  efternavn et [C]. Ved fornyet afhøring i Danmark er efternavnet angivet som [D], hvilket svarer til den mandli
-     venner på Facebook, der angiver at være fra Irak, herunder personen, [B], der har næsten det samme  efternavn , som ansøgeren har angivet i for-bindelse med asylansøgningen i Danmark. Det fremgår videre af Face
+    tivet, jf. nærmere nedenfor – anses for påfaldende, at ansøgeren ved sin ankomst til Danmark brugte  efternavn et [AB], som også er hendes nuværende irakiske ægtefælles efternavn. Sprogtesten kan ikke føre til e
+    e ansøgers efternavn. I henhold til de græske myndigheders registreringer har hun imidlertid oplyst  efternavn et [E]. Efter en samlet vurdering kan Flygtningenævnet herefter ikke lægge til grund, at ansøgerne e
+    er, at den kvindelige ansøger [F] ved indrejse i Grækenland er registreret som iraker med [et andet  efternavn ], og den kvindelige ansøger [G] ved indrejse i Ungarn er registreret som syrer med [et andet navn].
     er, at den kvindelige ansøger [F] ved indrejse i Grækenland er registreret som iraker med [et andet  efternavn ], og den kvindelige ansøger [G] ved indrejse i Ungarn er registreret som syrer med [et andet navn].
     eder oplyste er den mandlige ansøger således registreret som værende fra Irak og med såvel et andet  efternavn  som en anden fødselsdato end meddelt de danske myndigheder. Den kvindelige ansøger er ligeledes reg
-    e ansøgers efternavn. I henhold til de græske myndigheders registreringer har hun imidlertid oplyst  efternavn et [E]. Efter en samlet vurdering kan Flygtningenævnet herefter ikke lægge til grund, at ansøgerne e
-    d sin ankomst til Danmark brugte efternavnet [AB], som også er hendes nuværende irakiske ægtefælles  efternavn . Sprogtesten kan ikke føre til en anden vurdering af identitetsspørgsmålet. Ved vurderingen af ansø
+     venner på Facebook, der angiver at være fra Irak, herunder personen, [B], der har næsten det samme  efternavn , som ansøgeren har angivet i for-bindelse med asylansøgningen i Danmark. Det fremgår videre af Face
     , at han er irakisk statsborger fra en bestemt navngiven by i Irak, ligesom han har oplyst et andet  efternavn  og en anden fødselsdato end opgivet til de danske myndigheder. Ansøgerens bror og dennes familie ha
+    er, at den kvindelige ansøger [F] ved indrejse i Grækenland er registreret som iraker med [et andet  efternavn ], og den kvindelige ansøger [G] ved indrejse i Ungarn er registreret som syrer med [et andet navn].
+    ejse i Danmark over for de danske myndigheder oplyste, at de var irakiske statsborgere, og at deres  efternavn  var [et andet end oplyst af ansøgerne senere hen]. Ansøgerne er ikke fremkommet med en rimelig fork
+    igheder. Den kvindelige ansøger har således indledningsvis til de danske myndigheder oplyst at have  efternavn et [C]. Ved fornyet afhøring i Danmark er efternavnet angivet som [D], hvilket svarer til den mandli
     s [ansøgerens tredje barn] har forklaret, at hun udelukkende kendte faderens fornavn, […], men ikke  efternavn et. Når disse og de øvrige divergerende forklaringer sammenholdes med ansøgernes meget begrænsede ev
-    er, at den kvindelige ansøger [F] ved indrejse i Grækenland er registreret som iraker med [et andet  efternavn ], og den kvindelige ansøger [G] ved indrejse i Ungarn er registreret som syrer med [et andet navn].
-    mark, som han ønskede at bo i nærheden af, og at der er navnesammenfald mellem denne familie og det  efternavn , ansøgeren er registreret med i Grækenland. Der er endvidere sammenfald med familiens nationalitet 
-    ingsvis til de danske myndigheder oplyst at have efternavnet [C]. Ved fornyet afhøring i Danmark er  efternavn et angivet som [D], hvilket svarer til den mandlige ansøgers efternavn. I henhold til de græske mynd
-    er, at den kvindelige ansøger [F] ved indrejse i Grækenland er registreret som iraker med [et andet  efternavn ], og den kvindelige ansøger [G] ved indrejse i Ungarn er registreret som syrer med [et andet navn].
+    fornyet afhøring i Danmark er efternavnet angivet som [D], hvilket svarer til den mandlige ansøgers  efternavn . I henhold til de græske myndigheders registreringer har hun imidlertid oplyst efternavnet [E]. Eft
+    d sin ankomst til Danmark brugte efternavnet [AB], som også er hendes nuværende irakiske ægtefælles  efternavn . Sprogtesten kan ikke føre til en anden vurdering af identitetsspørgsmålet. Ved vurderingen af ansø
+    e myndigheder. Den kvindelige ansøger er ligeledes registreret som værende fra Irak og med et andet  efternavn  end meddelt de danske myndigheder. Den kvindelige ansøger har således indledningsvis til de danske 
+    s egne oplysninger eller med oplysninger i familiens dokumenter, således at det alene er det sidste  efternavn , som adskiller sig. Disse personer har oplyst, at den mandlige ansøgers mor har boet i Irak. Hertil
 
 
 Check context around `familie`. See ten random samples.
 
     10 random samples out of 601 contexts for 'familie':
-    e anholdt i forbindelse med demonstrationen, og der er ikke holdepunkter for at antage, at nogen af  familie medlemmerne har haft en central rolle i planlægningen eller udførelsen af hverken demonstrationen i 
-     der ransagede deres bopæl, ikke bar våben, senere under samme samtale, da hun blev foreholdt andre  familie medlemmers forklaringer herom, at hun ikke kiggede på folkenes hænder. Under nævnsmødet har den kvin
-    else af andre grunde kan komme på tale. Efter klagerens kortvarige ophold i Danmark, hans manglende  familie mæssige tilknytning til Danmark, oplysningerne om hans meget begrænsede tilknytning til arbejdsmarke
-    nsmødet har forklaret, at hans familie ikke havde telefon, og at det var [A], der underrettede hans  familie  om ansøgerens skjulested. Den mandlige ansøgers forklaring om, at han ikke lyttede efter tolkens ov
-    llem Kuwait og Irak, og ansøgeren flyttede ind hos sin fars gode venindes familie. Ansøgeren kendte  familie ns søn, [S], fra svømning og fra deres fritidsklub. Den første nat hos familien havde ansøgeren og [
-    sk rohingya. Ansøgeren har til støtte for sit asylmotiv oplyst, at han flyttede fra Myanmar med sin  familie , da han var omkring fire eller fem år gammel. Familien bosatte sig i Pakistan i halvandet år, hvore
-    len [i starten af] 2019 oplyst, at hun efter denne episode besluttede sig for fortsat at bo hos sin  familie , og at der ikke blev talt om sagen efterfølgende. Ansøgeren frygter ikke nogen i sin familie, hverk
-    øgerens mor har forklaret indbyrdes divergerende om, hvem der angiveligt tog sig af ansøgeren efter  familie ns udrejse af Kuwait. Ansøgerens mor har til de norske udlændingemyndigheder oplyst, at ansøgeren bo
-    n er syrisk statsborger og forklaret, at han ikke har dobbelt statsborgerskab. Kun en person i hans  familie , nemlig hans søster, har et jordansk pas, da hun er gift med en palæstinenser fra Jordan. Han har h
-    veksling af oplysninger mellem dem selv og en lang række andre asylansøgere, som de angiveligt er i  familie  med. For så vidt angår ansøgernes forklaring om de episoder, der førte til deres udrejse, kan Flygt
+    aft en central rolle i planlægningen eller udførelsen af hverken demonstrationen i 2014 eller 2015.  Familie n er kommet med forskellige oplysninger om, hvornår og hvor ofte familien er blevet opsøgt af de kuw
+    s forklaringer om den mandlige ansøgers konflikt til grund, idet ansøgerne og den mandlige ansøgers  familie  har forklaret divergerende, herunder indbyrdes divergerende, og fordi flere dele af deres forklarin
+    n ikke vidste, hvorfor hans og familien udrejse af Myanmar, og at han ikke var bekendt med, at hans  familie  havde haft problemer eller konflikter i Myanmar. For Flygtningenævnet har ansøgeren forklaret, at h
+     familie udrejste illegalt med fly til Tyrkiet [i sommeren] 2015. Ansøgerens søster, [E], og hendes  familie  udrejste af Kuwait før ansøgerens familie og indrejste i Danmark før dem. Efterfølgende har[A] fået
+    end 5 år siden. Ansøgeren har forklaret divergerende om, hvornår hans mor tog kontakt til bilistens  familie . Under oplysnings- og motivsamtalen forklarede han, at der gik to måneder, før hans mor første gang
+    r oplyst, at ægtefællen samlet set blev anholdt 4-6 gange, og at samtlige anholdelser fandt sted på  familie ns bopæl. Ansøgeren har også oplyst, at ægtefællen i forbindelse med den seneste anholdelse blev løs
+    s vægt på de ovennævnte omstændigheder i forbindelse med ægtefællens asylansøgning i Østrig og hans  familie s registrering som irakiske statsborgere i forbindelse med asylproceduren i andre europæiske lande. 
+    arede 40 uger. Endelig har Flygtningenævnet lagt vægt på, at ansøgerne har forklaret, at de og hele  familie n, uden at blive opsøgt af myndighederne, kunne bo i [C], ca. 2 km fra deres hidtidige bopæl, i knap
+     mostre, morfar og far, som stemmer overens med ansøgernes egne oplysninger eller med oplysninger i  familie ns dokumenter, således at det alene er det sidste efternavn, som adskiller sig. Disse personer har o
+    med sine farbrødre. De fik hjælp af farbrorens ven ved navn [X] til at holde sig skjult. Ansøgerens  familie s bopæl blev opsøgt og ransaget flere gange efter demonstrationen, og familien besluttede herefter a
 
 
 Bellow we apply KWIC for `stk` keyword found from the frequency analysis and print 10 random context appearances.
@@ -1254,48 +1254,48 @@ The call is made to the original untokenized & unprocessed dataset.
 
 
     10 random samples out of 363 contexts for 'stk':
-     bestemt dato i] 1988 blev klageren meddelt opholdstilladelse efter udlændingelovens daværende § 7,  stk . 1, nr. 1. Opholdstil-ladelsen blev [på en nærmere bestemt dato i ] 1991 gjort tidsubegrænset.  Ved
-    orbud for bestandig efter udlændingelovens § 49, stk. 1, jf. § 22, nr. 1, nr. 2 og nr. 4, jf. § 32,  stk . 2, nr. 5, jf. stk. 1. [På et nærmere bestemt tidspunkt i] 2014 stadfæstede [landsretten] byrettens
-    ledes heller ikke, at betingelserne for opholdstilladelse efter udlændingelovens § 7, stk. 1, eller  stk . 2, er opfyldt, stadfæster Flygtningenævnet Udlændingestyrelsens afgørelse.” Hjem/2018/59/LMD   
-    jf. udlændingelovens § 7, stk. 1, eller har behov for beskyttelsesstatus, jf. udlændingelovens § 7,  stk . 2. Flygtningenævnet stadfæster derfor Udlændingestyrelsens afgørelse.” hjem/2018/27/MKT
-     at inddrage klagerens opholdstilladelse i medfør af udlændingelovens § 19, stk. 2, nr. 1, og § 19,  stk . 7, 1. pkt., jf. § 26, stk. 1, idet styrelsen finder, at opholdstilladelsen er opnået ved svig. Kla
-    ylmotiv, og således heller ikke, at betingelserne for opholdstilladelse efter udlændingelovens § 7,  stk . 1, eller stk. 2 er opfyldt, stadfæster Flygtningenævnet Udlændingestyrelsens afgørelse.” Hjem/2018
-    ar sandsynliggjort, at betingelserne for opholdstilladelse efter udlændingelovens § 7, stk. 1 eller  stk . 2, er opfyldt.  Flygtningenævnet stadfæster derfor Udlændingestyrelsens afgørelse.” Hjem/2018/14/ 
-    lse var opfyldt, idet klageren havde opnået opholdstilladelsen ved svig, jf. udlændingelovens § 11,  stk . 2, jf. § 19, stk. 2, nr. 1 og § 19, stk. 7, 1. pkt., jf. § 26, stk. 1. Klageren har som asylmotiv 
-    intensitet, at disse forhold kan anses for omfattet af anvendelsesområdet for udlændingelovens § 7,  stk . 1 eller stk. 2. Tilsvarende gælder i forhold til den omstændighed, at ansøgerne er udrejst illegal
-    n identitet eller sit asylmotiv til grund. Nævnet bemærker, at det følger af udlændingelovens § 40,  stk . 1, at det påhviler en asylansøger at meddele de oplysninger, som er nødvendige til en bedømmelse a
+    t ikke er sandsynliggjort, at betingelserne for opholdstilladelse i medfør af udlændingelovens § 7,  stk . 1 og stk. 2, er opfyldt. Flygtningenævnet stadfæster derfor Udlændingestyrelsens afgørelse.”  hjem
+    sandsynliggjort, at betingelserne for opholdstilladelse i medfør af udlændingelovens § 7, stk. 1 og  stk . 2, er opfyldt. Flygtningenævnet stadfæster derfor Udlændingestyrelsens afgørelse.”  hjem/2019/1/JA
+    øgeren ikke har sandsynliggjort, at betingelserne for opholdstilladelse efter udlændingelovens § 7,  stk . 1, eller stk. 2, er opfyldt. Flygtningenævnet stadfæster derfor Udlændingestyrelsens afgørelse.” H
+    andsynliggjort sit asylmotiv. Betingelserne for opholdstilladelse i medfør af udlændingelovens § 7,  stk . 1, eller stk. 2 er derfor ikke opfyldt. Flygtningenævnet stadfæster derfor Udlændingestyrelsens af
+    jemlandet vil være i risiko for konkret og individuel forfølgelse omfattet af udlændingelovens § 7,  stk . 1. Ansøgeren findes heller ikke at have sandsynliggjort at være i reel risiko for umenneskelig beh
+    nd vil være i risiko for forfølgelse eller overgreb, omfattet af udlændingelovens § 7, stk. 1 eller  stk . 2. Flygtningenævnet stadfæster derfor Udlændingestyrelsens afgørelse. Hjem/2018/2/STR
+    il sit hjemland vil være i risiko for asylbegrundende forfølgelse omfattet af udlændingelovens § 7,  stk . 1, eller overgreb omfattet af udlændingelovens § 7, stk. 2. Flygtningenævnet stadfæster derfor Udl
+    elser på konkret grundlag og ikke ud fra en generel standard. Det fremgår af udlændingelovens § 54,  stk . 1, at Flygtningenævnet drager omsorg for sagens oplysning og træffer bestemmelse om afhøring af ud
+    il sit hjemland vil være i risiko for forfølgelse eller overgreb, omfattet af udlændingelovens § 7,  stk . 1 eller stk. 2. En ansøgning om humanitær opholdstilladelse medfører ikke, at der ikke skal fastsæ
+    e sandsynliggjort, at betingelserne for opholdstilladelse efter udlændingelovens § 7, stk. 1, eller  stk . 2, er opfyldt. Flygtningenævnet stadfæster derfor Udlændingestyrelsens afgørelse.” hjem/2018/68/SH
 
 
 KWIC for `opholdstilladelse`.
 
 
     10 random samples out of 228 contexts for 'opholdstilladelse':
-    om den pågældende er omfattet af udlændingelovens § 7. Det følger heraf, at en udlænding, der søger  opholdstilladelse  efter udlændingelovens § 7, må sandsynliggøre den identitet og det asylgrundlag, udlændingen påberå
-     identitet eller sit asylmotiv, og ansøgeren har således ikke sandsynliggjort, at betingelserne for  opholdstilladelse  efter udlændingelovens § 7, stk. 1, eller stk. 2, er opfyldt. Flygtningenævnet stadfæster derfor Ud
-    efter ikke, at ansøgeren har sandsynliggjort sin identitet eller asylmotiv, og at betingelserne for  opholdstilladelse  efter udlændingelovens § 7, stk. 1 eller stk. 2, er opfyldt. Flygtningenævnet stadfæster derfor Udl
-     bidoons i Kuwait er således ikke af en sådan karakter, at dette i sig selv ville kunne føre til en  opholdstilladelse  i Danmark, og heller ikke oplysningerne om ansøgerens konkrete livsforhold indebærer efter oplysnin
-     forhold, at ansøgeren har fremlagt dokumenter, der viser, at han er søn af sin far, der har opnået  opholdstilladelse  i England, kan heller ikke føre til en ændret vurdering. På denne baggrund finder Flygtningenævnet,
-    egeringen, idet han tidligere har været tilbageholdt, fordi han ikke havde et gyldigt id-kort eller  opholdstilladelse . Ansøgeren har til støtte for sit asylmotiv oplyst, at han er født i Eritrea, hvor han voksede op h
-     bidoons i Kuwait er således ikke af en sådan karakter, at dette i sig selv ville kunne føre til en  opholdstilladelse  i Danmark, og heller ikke oplysningerne om ansøgernes konkrete forhold indebærer efter oplysningern
-    lovens § 7. De generelle forhold i Irak er således ikke af en sådan karakter, at dette kan føre til  opholdstilladelse  efter den nævnte bestemmelse. Flygtningenævnet stadfæster derfor Udlændingestyrelsens afgørelse for
-    flere år ikke at tage kontakt til sin familie. Flygtningenævnet finder derfor, at betingelserne for  opholdstilladelse  efter udlændingelovens § 7, stk. 1 eller stk. 2, ikke er opfyldt. Flygtningenævnet stadfæster derfo
-    den pågældende er omfattet af udlændingelovens § 7. Det følger heraf, at en udlænding, der søger om  opholdstilladelse  efter udlændingelovens § 7, må sandsynliggøre den identitet og det asylgrundlag, som udlændingen på
+    stride, at hun har været i Holland. Flygtningenævnet finder derfor, at betingelserne for at meddele  opholdstilladelse  efter udlændingelovens § 7, stk. 1 eller stk. 2, ikke er opfyldt. Flygtningenævnet stadfæster derfo
+    sen. Flygtningenævnet har i en samtidig afgørelse meddelt ansøgerens forældre og søskende afslag på  opholdstilladelse  med følgende begrundelse: ”Flygtningenævnet finder, at i hvert fald dele af ansøgernes forklaringer
+    forlængelse af klagerens opholdstilladelse, idet Udlændingestyrelsen vurderede, at han havde opnået  opholdstilladelse n ved svig, jf. udlændingelovens § 11, stk. 2, jf. § 19, stk. 2, nr. 1, og § 19 a, stk. 2, jf. § 26,
+    n ved indrejsen i Danmark afgav bevidst urigtige oplysninger om sin identitet og således har opnået  opholdstilladelse  ved svig. Betingelserne for at inddrage klagerens opholdstilladelse efter udlændingelovens § 19, st
+     derfor også enig med Udlændingestyrelsen i, at betingelserne for at nægte forlængelse af klagerens  opholdstilladelse  er opfyldt, jf. udlændingelovens § 11, stk. 2, jf. § 19, stk. 2, nr. 1, og § 19 a stk. 2, jf. § 26,
+    se eller overgreb, omfattet af udlændingelovens § 7, stk. 1 eller stk. 2. En ansøgning om humanitær  opholdstilladelse  medfører ikke, at der ikke skal fastsættes en udrejsefrist. Flygtningenævnet stadfæster derfor Udlæ
+    est til at kunne opnå statsborgerskab, eller eventuelt i forhold til Sudan, hvor ansøgeren har haft  opholdstilladelse  siden fødslen. Sagen hjemvises derfor til Udlændingestyrelsen med henblik på en asylretlig vurderin
+    kaffe falske dokumenter i og fra Kuwait. Ulovlig udrejse fra hjemlandet kan ikke i sig selv medføre  opholdstilladelse  efter udlændingelovens § 7. Ansøgerne har herefter ikke sandsynliggjort, at de ved en tilbagevenden
+    den pågældende er omfattet af udlændingelovens § 7. Det følger heraf, at en udlænding, der søger om  opholdstilladelse  efter udlændingelovens § 7, må sandsynliggøre den identitet og det asylgrundlag, udlændingen påberå
+    (statsløse) fra Kuwait, eller at de i øvrigt har sandsynliggjort deres asylmotiv. Betingelserne for  opholdstilladelse  i medfør af udlændingelovens § 7, stk. 1, eller stk. 2, er derfor ikke opfyldt. Flygtningenævnet st
 
 
 KWIC for `§ 7` keyword.
 
 
     10 random samples out of 368 contexts for '§ 7':
-    n tilbagevenden til hjemlandet vil risikere forfølgelse eller overgreb omfattet af udlændingelovens  § 7 , stk. 1 eller 2. Flygtningenævnet stadfæster derfor Udlændingestyrelsens afgørelse.” Hjem2019/7/SML
-    o for forfølgelse omfattet af udlændingelovens § 7, stk. 1, eller i risiko for overgreb omfattet af  § 7 , stk. 2. Flygtningenævnet stadfæster derfor Udlændingestyrelsens afgørelse.” Afgh/2019/24/MGO
-    kan gives. Det følger heraf, at en udlænding, der søger om opholdstilladelse efter udlændingelovens  § 7 , må sandsynliggøre sin identitet og det asylgrundlag, han eller hun påberåber sig. Flygtningenævnet
-    har sandsynliggjort sit asylmotiv. Betingelserne for opholdstilladelse i medfør af udlændingelovens  § 7 , stk. 1, eller stk. 2, er derfor ikke opfyldt. Flygtningenævnet stadfæster derfor Udlændingestyrels
-    ke de generelle forhold for bidooner i Kuwait kan begrunde opholdstilladelse efter udlændingelovens  § 7 .  Det fremgår af baggrundsoplysninger om situationen for bidooner i Kuwait, at etniske bidoonere ud
-    oplysninger, der er nødvendige til bedømmelse af, om den pågældende er omfattet af udlændingelovens  § 7 . Det følger heraf, at en udlænding, der søger om opholdstilladelse efter udlændingelovens § 7, må s
-     forhold for bidoonere i Kuwait ville have kunnet begrunde opholdstilladelse efter udlændingelovens  § 7 . Det fremgår af baggrundsoplysninger om situationen for bidoonere i Kuwait, at etniske bidoonere ud
-    e sig i en konkret og individuel risiko for forfølgelse eller overgreb omfattet af udlændingelovens  § 7 . Ansøgerne har således oplyst, at de ikke har haft konflikter ud over den af nævnet forkastede fork
-    vil være i konkret og individuel risiko for forfølgelse eller overgreb omfattet af udlændingelovens  § 7 . Det af ansøgeren oplyste vedrørende hendes helbred og behov for lægebehandling kan ikke føre til e
-    der er nødvendige til bedømmelse blandt andet af, om den pågældende er omfattet af udlændingelovens  § 7 . Det følger heraf, at en udlænding, der søger opholdstilladelse efter udlændingelovens § 7, må sand
+    ed sin tilbagevenden til Afghanistan vil være i risiko for forfølgelse omfattet af udlændingelovens  § 7 , stk. 1, eller i risiko for overgreb omfattet af § 7, stk. 2. Flygtningenævnet stadfæster derfor Ud
+    nliggjort, at hun ved en tilbagevenden til sit hjemland risikerer forfølgelse, jf. udlændingelovens  § 7 , stk. 1, eller har behov for beskyttelsesstatus, jf. udlændingelovens § 7, stk. 2. Den foretagne sp
+    siko for at blive udsat for forfølgelse eller asylbegrundende overgreb omfattet af udlændingelovens  § 7 . Flygtningenævnet stadfæster herefter Udlændingestyrelsens afgørelse.” Med samme begrundelse som i 
+    r og intensitet, at disse forhold kan anses for omfattet af anvendelsesområdet for udlændingelovens  § 7 , stk. 1 eller stk. 2. Tilsvarende gælder i forhold til den omstændighed, at ansøgerne er udrejst il
+    Ulovlig udrejse fra hjemlandet kan ikke i sig selv medføre opholdstilladelse efter udlændingelovens  § 7 . Ansøgerne har herefter ikke sandsynliggjort, at de ved en tilbagevenden til deres hjemland vil vær
+    ovens § 7. Det følger heraf, at en udlænding, der søger om opholdstilladelse efter udlændingelovens  § 7 , må sandsynliggøre såvel sin identitet som det asylgrundlag, udlændingen påberåber sig. Efter en sa
+    ren har således ikke sandsynliggjort, at betingelserne for opholdstilladelse efter udlændingelovens  § 7 , stk. 1, eller stk. 2, er opfyldt. Flygtningenævnet stadfæster derfor Udlændingestyrelsens afgørels
+    lse, jf. udlændingelovens § 7, stk. 1, eller har behov for beskyttelsesstatus, jf. udlændingelovens  § 7 , stk. 2, ved en tilbagevenden til sit hjemland. Flygtningenævnet stadfæster derfor Udlændingestyrel
+    den til sit hjemland vil være i risiko for forfølgelse eller overgreb, omfattet af udlændingelovens  § 7 , stk. 1 eller stk. 2. Flygtningenævnet stadfæster derfor Udlændingestyrelsens afgørelse.” hjem/2019
+     at være i reel risiko for umenneskelig behandling eller andre forhold omfattet af udlændingelovens  § 7 , stk. 2. Flygtningenævnet stadfæster derfor Udlændingestyrelsens afgørelse.” hjem/2019/43/gdan
 
 
 ## Natural Language Processing:
@@ -1385,7 +1385,7 @@ The table below presents top ten words.
 
 
     
-![png](UH_analysis_files/UH_analysis_76_0.png)
+![png](_media/../../../_media/UH_analysis_files/UH_analysis_77_0.png)
     
 
 
@@ -1393,8 +1393,15 @@ The table below presents top ten words.
 
 
 
+
+
+    Text(0, 0.5, 'Frequencies')
+
+
+
+
     
-![png](UH_analysis_files/UH_analysis_80_0.png)
+![png](_media/../../../_media/UH_analysis_files/UH_analysis_81_1.png)
     
 
 
@@ -1559,6 +1566,6 @@ Plotting the pairs:
 
 
     
-![png](UH_analysis_files/UH_analysis_92_0.png)
+![png](_media/../../../_media/UH_analysis_files/UH_analysis_93_0.png)
     
 
