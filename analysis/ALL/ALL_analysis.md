@@ -1,27 +1,6 @@
 # ALL cases EDA:
 
-# Import data set:
-
-
-
-
-    (9635, 5)
-
-
-
-# Dataset preprocessing:
-
-Keep ALL cases except for Unknown Homeland (Ukendt hjemland):
-
-
-
-
-    (9443, 4)
-
-
-
-
-
+In this part of the analysis the same methodology was used as with the cases for Unknown Homeland. The main difference was that we kept all cases except for Unknown Homeland (Ukendt hjemland), i.e. we looked into text summaries which were annotated other than Unknown Homeland. We were left with a dataset of **9443** with 4 columns, as shown in the following table.
 
 <div>
 <style scoped>
@@ -40,7 +19,6 @@ Keep ALL cases except for Unknown Homeland (Ukendt hjemland):
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
       <th>id</th>
       <th>asylum_motive</th>
       <th>country</th>
@@ -49,35 +27,30 @@ Keep ALL cases except for Unknown Homeland (Ukendt hjemland):
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
       <td>0</td>
       <td>[Statusændring,  Privatretlig forhold,  Øvrige...</td>
       <td>Syrien</td>
       <td>Nævnet omgjorde i maj 2022 Udlændinges...</td>
     </tr>
     <tr>
-      <th>1</th>
       <td>1</td>
       <td>[To-instansbehandling,  Bortfald]</td>
       <td>Syrien</td>
       <td>Nævnet hjemviste i november 2021 Udlæn...</td>
     </tr>
     <tr>
-      <th>2</th>
       <td>2</td>
       <td>[Statusændring,  Militære forhold]</td>
       <td>Eritrea</td>
       <td>Nævnet omgjorde i maj 2022 Udlændinges...</td>
     </tr>
     <tr>
-      <th>3</th>
       <td>3</td>
       <td>[Generelle forhold,  Privatretlig forhold]</td>
       <td>Afghanistan</td>
       <td>Nævnet stadfæstede i maj 2022 Udlændin...</td>
     </tr>
     <tr>
-      <th>4</th>
       <td>4</td>
       <td>[Kriminelle forhold,  Privatretlig forhold,  S...</td>
       <td>Afghanistan</td>
@@ -87,12 +60,9 @@ Keep ALL cases except for Unknown Homeland (Ukendt hjemland):
 </table>
 </div>
 
+## Dataset processing:
 
-
-Check for potential duplicates and drop them:
-
-
-
+Once more, we checked for potential duplicates and dropped them.
 
 <div>
 <style scoped>
@@ -111,7 +81,6 @@ Check for potential duplicates and drop them:
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
       <th>id</th>
       <th>asylum_motive</th>
       <th>country</th>
@@ -120,77 +89,66 @@ Check for potential duplicates and drop them:
   </thead>
   <tbody>
     <tr>
-      <th>131</th>
       <td>131</td>
       <td>[Generelle forhold,  Øvrige modsætningsforhold...</td>
       <td>Syrien</td>
       <td>Nævnet omgjorde i november 2021 Udlænd...</td>
     </tr>
     <tr>
-      <th>132</th>
       <td>132</td>
       <td>[Generelle forhold,  Øvrige modsætningsforhold...</td>
       <td>Syrien</td>
       <td>Nævnet omgjorde i november 2021 Udlænd...</td>
     </tr>
     <tr>
-      <th>521</th>
       <td>521</td>
       <td>[Udsendelse (§ 49 a m.v.),  Sur Place,  Privat...</td>
       <td>Afghanistan</td>
       <td>Nævnet stadfæstede i juli 2021 Udlændi...</td>
     </tr>
     <tr>
-      <th>1098</th>
       <td>1098</td>
       <td>[Konsekvensstatus,  Statusændring,  Politiske ...</td>
       <td>Syrien</td>
       <td>Nævnet meddelte i oktober 2020 opholds...</td>
     </tr>
     <tr>
-      <th>1142</th>
       <td>1142</td>
       <td>[Seksuelle forhold,  Overgreb,  Etniske forhol...</td>
       <td>Den Demokratiske Republik Congo (DR Congo)</td>
       <td>Nævnet stadfæstede i september 2020 Ud...</td>
     </tr>
     <tr>
-      <th>...</th>
       <td>...</td>
       <td>...</td>
       <td>...</td>
       <td>...</td>
     </tr>
     <tr>
-      <th>9388</th>
       <td>9388</td>
       <td>[Politiske forhold,  Agents of Persecution,  T...</td>
       <td>Afghanistan</td>
       <td>Nævnet meddelte i juli 2010 opholdstilladelse ...</td>
     </tr>
     <tr>
-      <th>9582</th>
       <td>9582</td>
       <td>[Politiske forhold]</td>
       <td>Afghanistan</td>
       <td>Nævnet stadfæstede i juni 2005 Udlændi...</td>
     </tr>
     <tr>
-      <th>9594</th>
       <td>9594</td>
       <td>[Privatretlig forhold]</td>
       <td>Afghanistan</td>
       <td>Nævnet stadfæstede i december 2005 Udl...</td>
     </tr>
     <tr>
-      <th>9602</th>
       <td>9602</td>
       <td>[Politiske forhold]</td>
       <td>Afghanistan</td>
       <td>Nævnet stadfæstede i april 2004 en afg...</td>
     </tr>
     <tr>
-      <th>9607</th>
       <td>9607</td>
       <td>[Konsekvensstatus,  Politiske forhold,  Tortur]</td>
       <td>Afghanistan</td>
@@ -198,26 +156,15 @@ Check for potential duplicates and drop them:
     </tr>
   </tbody>
 </table>
-<p>480 rows × 4 columns</p>
 </div>
 
 
 
-See shape of new data frame:
-
-
-
-
-    (8963, 4)
-
-
+After dropping 480 duplicate entries the shape of the new data frame was **8963** cases with 4 columns.
 
 ## Length of texts
 
-Create a numeric column in order to get a feel about the length of the texts. 
-
-
-
+Again, we created a numeric column in order to get a feel about the length of the texts. 
 
 <div>
 <style scoped>
@@ -249,17 +196,6 @@ Create a numeric column in order to get a feel about the length of the texts.
   </thead>
   <tbody>
     <tr>
-      <th>id</th>
-      <td>8963.0</td>
-      <td>4825.259846</td>
-      <td>2830.033440</td>
-      <td>0.0</td>
-      <td>2307.5</td>
-      <td>4858.0</td>
-      <td>7343.5</td>
-      <td>9634.0</td>
-    </tr>
-    <tr>
       <th>length</th>
       <td>8963.0</td>
       <td>4159.678456</td>
@@ -274,42 +210,28 @@ Create a numeric column in order to get a feel about the length of the texts.
 </table>
 </div>
 
+Here we can see a **Boxplot** visualizing these results.
 
-
-## Boxplot:
-
-
-
-
-    <AxesSubplot:>
-
-
-
-
-    
 ![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_14_1.png)
     
 
 
-# Text Processing:
+## Text Processing:
 
-Column `text` is processed in order to extract data concerning:
-- decision outcome
-- gender of applicants
-- year of decision
+Same as with Unknown Homeland cases the column labelled as `text` got processed in order to extract data concerning:
+- Decision outcome.
+- Gender of applicants.
+- Year of decision.
 
-Steps included in the pipeline:
-- lower casing
-- punctuation removal
-- stopword removal
-- single letter word removal
-- tokenization
-- lemmatization
+Individual steps included in the pipeline were the following:
+- Lower casing.
+- Punctuation removal.
+- Stopword removal.
+- Single letter word removal.
+- Tokenization.
+- Lemmatization.
 
-See ten first entries
-
-
-
+After processing we were left with a dataset whose ten first entries looked like shown in the table below.
 
 <div>
 <style scoped>
@@ -328,7 +250,6 @@ See ten first entries
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
       <th>id</th>
       <th>asylum_motive</th>
       <th>country</th>
@@ -340,7 +261,6 @@ See ten first entries
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
       <td>0</td>
       <td>[Statusændring,  Privatretlig forhold,  Øvrige...</td>
       <td>Syrien</td>
@@ -350,7 +270,6 @@ See ten first entries
       <td>600</td>
     </tr>
     <tr>
-      <th>1</th>
       <td>1</td>
       <td>[To-instansbehandling,  Bortfald]</td>
       <td>Syrien</td>
@@ -360,7 +279,6 @@ See ten first entries
       <td>147</td>
     </tr>
     <tr>
-      <th>2</th>
       <td>2</td>
       <td>[Statusændring,  Militære forhold]</td>
       <td>Eritrea</td>
@@ -370,7 +288,6 @@ See ten first entries
       <td>196</td>
     </tr>
     <tr>
-      <th>3</th>
       <td>3</td>
       <td>[Generelle forhold,  Privatretlig forhold]</td>
       <td>Afghanistan</td>
@@ -380,7 +297,6 @@ See ten first entries
       <td>573</td>
     </tr>
     <tr>
-      <th>4</th>
       <td>4</td>
       <td>[Kriminelle forhold,  Privatretlig forhold,  S...</td>
       <td>Afghanistan</td>
@@ -390,7 +306,6 @@ See ten first entries
       <td>899</td>
     </tr>
     <tr>
-      <th>5</th>
       <td>5</td>
       <td>[Politiske forhold,  Privatretlig forhold]</td>
       <td>Rwanda</td>
@@ -400,7 +315,6 @@ See ten first entries
       <td>471</td>
     </tr>
     <tr>
-      <th>6</th>
       <td>6</td>
       <td>[Inddragelse/forlængelse,  Privatretlig forhold]</td>
       <td>Afghanistan</td>
@@ -410,7 +324,6 @@ See ten first entries
       <td>355</td>
     </tr>
     <tr>
-      <th>7</th>
       <td>7</td>
       <td>[Øvrige modsætningsforhold til myndighederne, ...</td>
       <td>Syrien</td>
@@ -420,7 +333,6 @@ See ten first entries
       <td>442</td>
     </tr>
     <tr>
-      <th>8</th>
       <td>8</td>
       <td>[Udsendelse (§ 49 a m.v.),  Militære forhold, ...</td>
       <td>Iran</td>
@@ -430,7 +342,6 @@ See ten first entries
       <td>302</td>
     </tr>
     <tr>
-      <th>9</th>
       <td>9</td>
       <td>[Dublin,  Artikel 18 (Den ansvarlige medlemsst...</td>
       <td>Tyskland</td>
@@ -443,11 +354,11 @@ See ten first entries
 </table>
 </div>
 
+## Exploratory descriptive analysis (EDA):
 
+### Country of origin:
 
-# Country of Origin:
-
-
+Country of origin was easier to extract because this time we had a distinct column including the variable `country` at our disposal. Therefore, we could create the following dataframe. 
 
 
 <div>
@@ -467,7 +378,7 @@ See ten first entries
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
+      <th>Country of Origin</th>
       <th>count</th>
     </tr>
   </thead>
@@ -518,40 +429,19 @@ See ten first entries
     </tr>
   </tbody>
 </table>
-<p>121 rows × 1 columns</p>
 </div>
 
-
-
-Plot top ten countries:
-
-
+Now we could visualize the distribution of top ten countries with their frequencies.
     
 ![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_25_0.png)
-    
 
+### Decision extraction:
 
-# Decision extraction:
-
-Plot decision:
-
-
-
-
-    Text(0, 0.5, 'outcomes')
-
-
-
-
+Similarly to Unknown Homeland we applied regular expressions in order to extract the outcomes of the Danish Refugee Appeals Board decision.
     
 ![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_30_1.png)
     
-
-
-Plot decision outcome rate by country:
-
-
-
+The following table gives an idea of decision outcome rate by country:
 
 <div>
 <style scoped>
@@ -570,26 +460,12 @@ Plot decision outcome rate by country:
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
-      <th></th>
-      <th>count</th>
-    </tr>
-    <tr>
-      <th>country</th>
-      <th>decision</th>
-      <th></th>
+      <th>Country of origin</th>
+      <th>Decision Outcome</th>
+      <th>Frequency</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th rowspan="2" valign="top"></th>
-      <th>affirmed</th>
-      <td>39</td>
-    </tr>
-    <tr>
-      <th>overturned</th>
-      <td>11</td>
-    </tr>
     <tr>
       <th rowspan="2" valign="top">Afghanistan</th>
       <th>affirmed</th>
@@ -634,50 +510,33 @@ Plot decision outcome rate by country:
     </tr>
   </tbody>
 </table>
-<p>187 rows × 1 columns</p>
 </div>
 
+The next plot shows top 15 countries with their respective decision outcome rates.
 
-
-
-    
 ![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_33_0.png)
-    
 
+### Gender of applicants extraction:
 
-# Gender of applicants extraction:
+The content of the texts revealed another category the one of `couples`. Although not applicable for a **gender** category we decided to add it here for brevity.
+Once more our regular expressions missed some results, but in all very little.   
 
-
-
-
-    Text(0, 0.5, 'nn. of outcomes')
-
-
-
-
-    
 ![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_36_1.png)
     
 
 
-# Year of decision:
-
-
+### Year of decision and outcome rate:
     
 ![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_39_0.png)
     
-
-
-Plot Decision Outcome Frequencies by Gender for each Year:
-
-
+We deemed it meight be useful to plot decision outcome frequencies by gender for each year:
     
 ![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_41_0.png)
-    
+  
 
+### Asylum motives distribution:
 
-# Asylum motives distribution:
-
+We wanted to compare the distributions of Asylum Motives and see if and how they differ from those in the Unknown Homeland cases.
 
 
 
@@ -692,108 +551,20 @@ Plot Decision Outcome Frequencies by Gender for each Year:
     TagCollectionMotive                                              1
     Artikel 9 (familiemedlemmer med international beskyttelse)       1
     Artikel 8 (uledsagede mindreårige)                               1
-    Name: asylum_motive, Length: 65, dtype: int64
 
+The next figure shows top ten most frequent asylum motives for all countries.
 
-
-Plot ten most frequent asylum motives:
-
-
-
-
-    Text(0, 0.5, 'Frequency')
-
-
-
-
-    
 ![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_45_1.png)
     
 
 
-# Search for specific terms:
+## Keyword in context exploration:
 
-- Bidoon:
+As our main focus revolved around Bidoons we wanted to see how many times the term **Bidoon** appeared in this dataset. We found that the term appeared 88 times a rather small number.
 
+We applied KWIC in order to get some context around the text. Below we can see 10 random samples out of 467 contexts for 'bidoon'.
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>counts</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>bidoon</th>
-      <td>86</td>
-    </tr>
-    <tr>
-      <th>Bidoon</th>
-      <td>2</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
-Merge categories and count again:
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>counts</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>bidoon</th>
-      <td>88</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
-See some context:
-
-    10 random samples out of 467 contexts for 'bidoon':
+    
     ner i Kuwait, der er årsag til hans udrejse. Det fremgår af baggrundsoplysninger om situationen for  bidoon er i Kuwait, at etniske bidoonere udsættes for diskrimination, og at de har begrænsede rettigheder. 
     n) fra Kuwait. Indrejst i 2015.Flygtningenævnet udtalte: ”Ansøgeren har oplyst, at han er statsløs ( bidoon ) og shia muslim fra […], Kuwait. Ansøgeren har ikke været medlem af politiske eller religiøse foren
      Flygtningenævnet udtalte: ”Ansøgeren er etnisk araber og shia-muslim. Ansøgeren har oplyst at være  bidoon  (statsløs) fra [A], Kuwait. Ansøgeren har ikke været medlem af politiske eller religiøse foreninger
@@ -806,26 +577,13 @@ See some context:
     015. Flygtningenævnet udtalte: ”Ansøgerne er etnisk araber, shiamuslim af trosretning og angiveligt  bidoon ere (statsløs) fra Taima i al-Jahra, Kuwait. Ansøgerne har ikke været medlem af politiske eller reli
 
 
-Decision outcomes for bidooners outside Unknown Homeland.
+The decision outcomes rate for bidooners outside Unknown Homeland cases remained more or less the same.
 
-
-    
 ![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_54_0.png)
     
-
-
-# Natural Language Processing:
-
-
 ## Frequency analysis:
 
-Here the most frequent tokens in the **whole** corpus are counted.
-
-The table below presents top ten words.
-
-
-
-
+We again looked for the most frequent tokens found in the **whole** corpus. The table below presents top ten of them.
 
 <div>
 <style scoped>
@@ -844,12 +602,8 @@ The table below presents top ten words.
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
-      <th>freq</th>
-    </tr>
-    <tr>
-      <th>token</th>
-      <th></th>
+      <th>Token</th>
+      <th>Frequency</th>
     </tr>
   </thead>
   <tbody>
@@ -897,25 +651,16 @@ The table below presents top ten words.
 </table>
 </div>
 
+This is a visualization of the above table.
 
-
-
-    
 ![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_58_0.png)
     
 
 
 ## N-gram analysis:
 
+Below we see the ten most common bigrams of our corpus.
 
-
-
-    Text(0, 0.5, 'Frequencies')
-
-
-
-
-    
 ![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_62_1.png)
     
 
@@ -923,21 +668,9 @@ The table below presents top ten words.
 ## TF-IDF
 
 
-Below is the shape of the resulting vector of the vocabulary created from the given context.
+The shape of the resulting vector of the vocabulary created from our given corpus consists of 8963 texts with 50262 terms (or dimensions).
 
-
-
-
-
-    (8963, 50262)
-
-
-
-Ten random words from the vocabulary:
-
-
-
-
+Below we can see 10 random terms from the produced vocabulary:
 
     ['omgjorde',
      '2022',
@@ -950,21 +683,7 @@ Ten random words from the vocabulary:
      'statsborger',
      'syrien']
 
-
-
-Peek at the IDF values array:
-
-
-
-
-
-    array([9.40782465, 9.40782465, 8.71467747, ..., 9.40782465, 9.40782465,
-           8.71467747])
-
-
-
-
-
+The following table provides a peek at the documents and their respective terms with their TF-IDF scores.
 
 <div>
 <style scoped>
@@ -1046,41 +765,10 @@ Peek at the IDF values array:
     </tr>
   </tbody>
 </table>
-<p>8963 rows × 2 columns</p>
 </div>
 
 
 
-Twenty most common words based on TF-IDF values
+Finally we can see the top 20 most common words based on their TF-IDF scores.
 
-
-    [   ('gulbuddin', 0.893),
-        ('letland', 0.866),
-        ('kklan', 0.86),
-        ('honduras', 0.859),
-        ('marjan', 0.837),
-        ('fatima', 0.829),
-        ('hawadleklan', 0.826),
-        ('javed', 0.82),
-        ('gaza', 0.816),
-        ('aslægt', 0.812),
-        ('studiekammerat', 0.795),
-        ('cypern', 0.795),
-        ('ezmary', 0.79),
-        ('xbevægelse', 0.787),
-        ('galadiklan', 0.78),
-        ('g1', 0.764),
-        ('litauen', 0.762),
-        ('murad', 0.759),
-        ('niloufar', 0.758),
-        ('bazmohammad', 0.758)]
-
-
-Plotting the pairs:
-
-
-
-    
 ![png](_media/../../../_media/ALL_analysis_files/ALL_analysis_74_0.png)
-    
-
