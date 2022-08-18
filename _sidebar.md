@@ -1,7 +1,7 @@
 <!-- /_sidebar.md -->
 
 
-* [HOME](./home)
+* [PROJECT](./project)
 * [Theory](./theory/theory)
   * [N-grams](./theory/ngrams)
   * [TF-IDF](./theory/tfidf)
