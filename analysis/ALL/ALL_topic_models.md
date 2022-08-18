@@ -1,6 +1,6 @@
 # ALL cases topic modelling: 
 
-Again, the same methodology and techniques were implemented in order to see latent topics in the corpus of summary cases regarding the rest of our dataset excluding those cases that were categorized as Unknown Homeland. So, after processing the dataset (dropping duplicate entries, etc.) we were left with **8963** case summaries.
+Again, the same methodology and techniques were implemented in order to see latent topics in the corpus of summary cases regarding the rest of our dataset, excluding those cases that were categorized as **Unknown Homeland**. So, after processing the dataset (dropping duplicate entries, etc.) we were left with **8963** case summaries.
 
 ## Topic Modelling:
 
@@ -38,7 +38,7 @@ Let's visualise the topics produced by LDA:
 
 [LDA_ALL.html](../../_media/LDA_ALL.html ':include :type=iframe width=100% height=800px')
 
-### Non-Negative Matrix Factorization:
+### Non-Negative Matrix Factorization (NMF):
 
     The coherence score for NMF (0.74) was highest with 6 topics.
 
@@ -89,16 +89,16 @@ After building the model with the `optimal number of topics` we got:
      palæstinenser (0.51)
 
 
-We can now visualise the topics produced by NMF:
+We can now visualize the topics produced by NMF:
 
 [NMF_ALL.html](../../_media/NMF_ALL.html ':include :type=iframe width=100% height=800px')
 
-### Latent Semantic Analysis/Indexing:
+### Latent Semantic Analysis/Indexing (LSA):
 
     The coherence score for SVD (0.72) was highest with 5 topics.
 
 
-Building the model with the `optimal number of topics` provide us with the following results:
+Building the model with the `optimal number of topics` provided us with the following results:
 
     
     Topic 01

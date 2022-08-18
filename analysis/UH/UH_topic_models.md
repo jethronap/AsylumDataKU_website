@@ -130,7 +130,7 @@ Building the model with the `optimal number of topics` gives the following outpu
 
 [NMF_UH.html](../../_media/NMF_UH.html ':include :type=iframe width=100% height=800px')
 
-### Latent Semantic Analysis/Indexing:
+### Latent Semantic Analysis/Indexing (LSA):
 
 Another algorithm for performing topic modeling is based on the so-called singular value decomposition (SVD), another method from linear algebra.
 
