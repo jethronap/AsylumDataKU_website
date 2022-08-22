@@ -2,7 +2,9 @@
 
 > Mini website for reporting and communicating research results from refugee appeals in the Danish Refugee Apeals Board (Flygtningenævnet).
 
-[Proceed](project.md)
+<!-- [Proceed](project.md) -->
+
+[Scroll down for more information]()
 
 ![](_media/report_1.svg)
 
