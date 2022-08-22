@@ -1,13 +1,4 @@
-# Analysing Asylum Data and Practices in Denmark.
-
-In this project various text mining techniques and natural language processing have been implemented in order to:
-
-- Extract data from a dataset that was created after scraping the website of the Danish Appeals Board (Flygtningenævnet)
-- Discover latent information inside the appeal texts through the use of Topic Modelling algorithms and other NLP techniques, such as N-gram and TF-IDF analysis.
-
-This website is a presentation of some theoretical aspects that fuelled the analysis and the results of the analysis per se.
-
-## Website contents:
+# Website contents:
 
 Under **Theory** tab you can see some insights regarding:
 - N-gram analysis.
