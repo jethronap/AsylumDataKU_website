@@ -9,4 +9,4 @@ In this project various text mining techniques and natural language processing h
 
 This website is a presentation of some theoretical aspects that fuelled the analysis and the results of the analysis per se.
 
-> This project is being realized at Confronting Data Lab @ DIKU.
+> This project is being realized at [Confronting Data Lab](https://www.confrontingdata.dk) @ DIKU.
