@@ -18,17 +18,22 @@
   <script>
     window.$docsify = {
       el: "#app",
-      repo: 'https://github.com/jethronap/AsylumDataKU_website',
+      repo: "https://github.com/jethronap/AsylumDataKU_website",
       loadSidebar: true,
       coverpage: true,
       onlyCover: false,
       homepage: "home.md",
-      name: '<span>Asylum Data @ KU</span>',
+      name: "<span>Asylum Data @ KU</span>",
+      pagination: {
+        crossChapter: true,
+        crossChapterText: false,
+      },
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <!-- plugins -->
 <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 </body>
 </html>
