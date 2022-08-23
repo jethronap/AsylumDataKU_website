@@ -1,12 +1,12 @@
 # TF-IDF
 
-**Term Frequency (TF):**
+**Term Frequency (TF)**
 
 The number of times a word appears in a document divded by the total number of words in the document. Every document has its own term frequency.
 
 A value close to 1 indicates this term is very important to the document — and primarily composed of it. A low value could mean this term is not very important.
 
-**Inverse Data Frequency (IDF):**
+**Inverse Data Frequency (IDF)**
 
 The log of the number of documents divided by the number of documents that contain the word w. Inverse data frequency determines the weight of rare words across all documents in the corpus.
 

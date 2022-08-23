@@ -1,4 +1,4 @@
-# Latent Dirichlet Allocation (LDA):
+# Latent Dirichlet Allocation (LDA)
 
 
 Probabilistic, generative model which uncovers the topics latent to a dataset by assigning weights to words in a corpus, where each topic will assign different probability weights to each word.
@@ -9,7 +9,7 @@ The LDA algorithm first models documents via a mixture model of topics. From the
 
 REFs here [1](https://scikit-learn.org/stable/modules/decomposition.html#latentdirichletallocation) and [2](https://arxiv.org/pdf/1405.0099.pdf).
 
-**Assumptions**:
+**Assumptions**
 
 - Each document is just a collection of words or a “bag of words”. Thus, the order of the words and the grammatical role of the words (subject, object, verbs, …) are not considered in the model.
 - Words like am/is/are/of/a/the/but/… don’t carry any information about the “topics” and therefore can be eliminated from the documents as a preprocessing step. In fact, we can eliminate words that occur in at least %80 ~ %90 of the documents, without losing any information. For example, if our corpus contains only medical documents, words like human, body, health, etc might be present in most of the documents and hence can be removed as they don’t add any specific information which would make the document stand out.
@@ -26,7 +26,7 @@ Further assumptions of LDA for Topic Modelling:
 - Latent topics can then be found by searching for groups of words that frequently occur together in documents across the corpus
 - Documents are probability distributions over latent topics which signifies certain document will contain more words of a specific topic.
 
-**Limitations**:
+**Limitations**
 - Fixed K (the number of topics is fixed and must be known ahead of time) There is limit to amount of topics we can generate
 - Uncorrelated topics (Dirichlet topic distribution cannot capture correlations)
 - Non-hierarchical (in data-limited regimes hierarchical models allow sharing of data)

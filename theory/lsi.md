@@ -1,4 +1,4 @@
-# Latent Semantic Analysis/Indexing:
+# Latent Semantic Analysis/Indexing
 
 Similar analysis to NMF but using a different algorithm: Singular Value Decomposition (SVD).
 

@@ -1,4 +1,4 @@
-# N-gram analysis:
+# N-gram analysis
 
 **N-grams** are neighboring sequences of items (words, letters, symbols) in a document.
 

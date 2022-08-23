@@ -1,4 +1,4 @@
-# Website contents:
+# Website contents
 
 Under **Theory** tab you can see some insights regarding:
 - N-gram analysis.

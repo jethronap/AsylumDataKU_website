@@ -1,4 +1,4 @@
-# Theoretical aspects:
+# Theoretical aspects
 
 In this section you can navigate through the various aspects that were used in order to extract meaningful information and knowledge from textual data.
 

@@ -1,4 +1,4 @@
-# **Coherence Score**:
+# Coherence Score
 
 Compute the coherence score is essentially a measure of how similar the words assigned to each topic are in terms of semantic value. The higher the score, the better.
 
