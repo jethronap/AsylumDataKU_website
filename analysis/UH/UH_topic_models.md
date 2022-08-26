@@ -214,102 +214,102 @@ WordClouds are a popular representation of topic modelling. Compared to `pyLDAvi
 
 ### WordClouds produced from the LDA model:
 
-![png](../../_media/UH_topic_models_files/UH_topic_models_49_0.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_49_0.png)
 
 
-![png](../../_media/UH_topic_models_files/UH_topic_models_49_1.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_49_1.png)
     
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_49_2.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_49_2.png)
     
     
-![png](../../_media/UH_topic_models_files/UH_topic_models_49_3.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_49_3.png)
     
   
-![png](../../_media/UH_topic_models_files/UH_topic_models_49_4.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_49_4.png)
     
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_49_5.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_49_5.png)
     
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_49_6.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_49_6.png)
     
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_49_7.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_49_7.png)
     
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_49_8.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_49_8.png)
     
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_49_9.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_49_9.png)
     
 ### WordClouds produced from the NMF model:
     
-![png](../../_media/UH_topic_models_files/UH_topic_models_51_0.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_51_0.png)
     
     
-![png](../../_media/UH_topic_models_files/UH_topic_models_51_1.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_51_1.png)
     
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_51_2.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_51_2.png)
     
     
-![png](../../_media/UH_topic_models_files/UH_topic_models_51_3.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_51_3.png)
     
 ### WordsClouds from the SVD model:
 
   
-![png](../../_media/UH_topic_models_files/UH_topic_models_53_0.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_53_0.png)
     
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_53_1.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_53_1.png)
     
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_53_2.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_53_2.png)
     
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_53_3.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_53_3.png)
     
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_53_4.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_53_4.png)
     
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_53_5.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_53_5.png)
     
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_53_6.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_53_6.png)
     
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_53_7.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_53_7.png)
     
 ### WordClouds produced from Kmeans clustering:
 
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_55_0.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_55_0.png)
     
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_55_1.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_55_1.png)
     
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_55_2.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_55_2.png)
     
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_55_3.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_55_3.png)
     
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_55_4.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_55_4.png)
     
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_55_5.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_55_5.png)
     
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_55_6.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_55_6.png)
     
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_55_7.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_55_7.png)
     
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_55_8.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_55_8.png)
     
    
-![png](../../_media/UH_topic_models_files/UH_topic_models_55_9.png)
+![wordcloud](../../_media/UH_topic_models_files/UH_topic_models_55_9.png)

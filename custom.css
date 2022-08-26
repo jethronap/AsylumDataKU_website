@@ -55,6 +55,9 @@ body {
 img {
   max-width: 100%;
 }
+img[alt=wordcloud] {
+  max-width: 75%;
+}
 kbd {
   border: 1px solid #ccc;
   border-radius: 3px;

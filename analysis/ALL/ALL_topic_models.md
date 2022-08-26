@@ -141,48 +141,48 @@ Building the model with the `optimal number of topics` provided us with the foll
 
 ### WordClouds from the LDA model:
    
-![png](../../_media/ALL_topic_models_files/ALL_topic_models_47_0.png)
+![wordcloud](../../_media/ALL_topic_models_files/ALL_topic_models_47_0.png)
     
    
-![png](../../_media/ALL_topic_models_files/ALL_topic_models_47_1.png)
+![wordcloud](../../_media/ALL_topic_models_files/ALL_topic_models_47_1.png)
     
     
-![png](../../_media/ALL_topic_models_files/ALL_topic_models_47_2.png)
+![wordcloud](../../_media/ALL_topic_models_files/ALL_topic_models_47_2.png)
     
 
 ### WordClouds from the NMF model:
 
   
-![png](../../_media/ALL_topic_models_files/ALL_topic_models_49_0.png)
+![wordcloud](../../_media/ALL_topic_models_files/ALL_topic_models_49_0.png)
     
     
-![png](../../_media/ALL_topic_models_files/ALL_topic_models_49_1.png)
-    
-   
-![png](../../_media/ALL_topic_models_files/ALL_topic_models_49_2.png)
+![wordcloud](../../_media/ALL_topic_models_files/ALL_topic_models_49_1.png)
     
    
-![png](../../_media/ALL_topic_models_files/ALL_topic_models_49_3.png)
+![wordcloud](../../_media/ALL_topic_models_files/ALL_topic_models_49_2.png)
     
    
-![png](../../_media/ALL_topic_models_files/ALL_topic_models_49_4.png)
+![wordcloud](../../_media/ALL_topic_models_files/ALL_topic_models_49_3.png)
     
    
-![png](../../_media/ALL_topic_models_files/ALL_topic_models_49_5.png)
+![wordcloud](../../_media/ALL_topic_models_files/ALL_topic_models_49_4.png)
+    
+   
+![wordcloud](../../_media/ALL_topic_models_files/ALL_topic_models_49_5.png)
     
 ### WordsClouds from the SVD model:
 
    
-![png](../../_media/ALL_topic_models_files/ALL_topic_models_51_0.png)
+![wordcloud](../../_media/ALL_topic_models_files/ALL_topic_models_51_0.png)
     
    
-![png](../../_media/ALL_topic_models_files/ALL_topic_models_51_1.png)
+![wordcloud](../../_media/ALL_topic_models_files/ALL_topic_models_51_1.png)
     
    
-![png](../../_media/ALL_topic_models_files/ALL_topic_models_51_2.png)
+![wordcloud](../../_media/ALL_topic_models_files/ALL_topic_models_51_2.png)
     
    
-![png](../../_media/ALL_topic_models_files/ALL_topic_models_51_3.png)
+![wordcloud](../../_media/ALL_topic_models_files/ALL_topic_models_51_3.png)
     
    
-![png](../../_media/ALL_topic_models_files/ALL_topic_models_51_4.png)
+![wordcloud](../../_media/ALL_topic_models_files/ALL_topic_models_51_4.png)
