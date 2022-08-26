@@ -20,11 +20,6 @@ div#app {
 div#app:empty:before {
   content: "Loading...";
 }
-.emoji {
-  height: 19.2px;
-  height: 1.2rem;
-  vertical-align: middle;
-}
 .progress {
   background-color: #47e1f2;
   height: 2px;
@@ -69,84 +64,6 @@ kbd {
   margin-bottom: 3px;
   padding: 3px 5px;
   vertical-align: middle;
-}
-.app-nav {
-  left: 0;
-  margin: 25px 60px 0 0;
-  position: absolute;
-  right: 0;
-  text-align: right;
-  z-index: 2;
-}
-.app-nav p {
-  margin: 0;
-}
-.app-nav > a {
-  margin: 0 1rem;
-  padding: 5px 0;
-}
-.app-nav li,
-.app-nav ul {
-  display: inline-block;
-  list-style: none;
-  margin: 0;
-}
-.app-nav a {
-  color: inherit;
-  font-size: 16px;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-.app-nav a.active,
-.app-nav a:hover {
-  color: #47e1f2;
-}
-.app-nav a.active {
-  border-bottom: 2px solid #47e1f2;
-}
-.app-nav li {
-  display: inline-block;
-  margin: 0 1rem;
-  padding: 5px 0;
-  position: relative;
-}
-.app-nav li ul {
-  background-color: #081020;
-  border: 1px solid #ddd;
-  border-bottom-color: #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  display: none;
-  max-height: calc(100vh - 61px);
-  overflow-y: scroll;
-  padding: 10px 0;
-  position: absolute;
-  right: -15px;
-  text-align: left;
-  top: 100%;
-  white-space: nowrap;
-}
-.app-nav li ul li {
-  display: block;
-  font-size: 14px;
-  line-height: 1rem;
-  margin: 8px 14px;
-  white-space: nowrap;
-}
-.app-nav li ul a {
-  display: block;
-  font-size: inherit;
-  margin: 0;
-  padding: 0;
-}
-.app-nav li ul a.active {
-  border-bottom: 0;
-}
-.app-nav li:hover ul {
-  display: block;
-}
-.app-nav.no-badge {
-  margin-right: 25px;
 }
 .github-corner {
   border-bottom: 0;
@@ -213,7 +130,7 @@ main {
 }
 .sidebar li > p {
   font-weight: 700;
-  margin: 25px 0 0;
+  margin: 15px 0 0;
   color: #47e1f2;
 }
 .sidebar ul,
@@ -372,7 +289,6 @@ body.close .content {
   left: 0;
 }
 @media print {
-  .app-nav,
   .github-corner,
   .sidebar,
   .sidebar-toggle {
@@ -387,12 +303,6 @@ body.close .content {
   .sidebar,
   .sidebar-toggle {
     position: fixed;
-  }
-  .app-nav {
-    margin-top: 16px;
-  }
-  .app-nav li ul {
-    top: 30px;
   }
   main {
     height: auto;
@@ -414,7 +324,6 @@ body.close .content {
     position: static;
     transition: transform 0.25s ease;
   }
-  .app-nav,
   .github-corner {
     transition: transform 0.25s ease-out;
   }
@@ -664,6 +573,7 @@ body {
   margin: 0;
 }
 .markdown-section iframe {
+  background:#00aabd;
   margin: 1em 0;
 }
 .markdown-section em {
@@ -693,81 +603,6 @@ body {
   overflow: auto;
   position: relative;
   word-wrap: normal;
-}
-.token.cdata,
-.token.comment,
-.token.doctype,
-.token.prolog {
-  color: #8e908c;
-}
-.token.namespace {
-  opacity: 0.7;
-}
-.token.boolean,
-.token.number {
-  color: #c76b29;
-}
-.token.punctuation {
-  color: #525252;
-}
-.token.property {
-  color: #c08b30;
-}
-.token.tag {
-  color: #2973b7;
-}
-.token.string {
-  color: #e5b567;
-}
-.token.selector {
-  color: #6679cc;
-}
-.token.attr-name {
-  color: #2973b7;
-}
-.language-css .token.string,
-.style .token.string,
-.token.entity,
-.token.url {
-  color: #22a2c9;
-}
-.token.attr-value,
-.token.control,
-.token.directive,
-.token.unit {
-  color: #47e1f2;
-}
-.token.keyword {
-  color: #a71d5d;
-}
-.token.atrule,
-.token.regex,
-.token.statement {
-  color: #22a2c9;
-}
-.token.placeholder,
-.token.variable {
-  color: #3d8fd1;
-}
-.token.deleted {
-  text-decoration: line-through;
-}
-.token.inserted {
-  border-bottom: 1px dotted #202746;
-  text-decoration: none;
-}
-.token.italic {
-  font-style: italic;
-}
-.token.bold,
-.token.important {
-  font-weight: 700;
-}
-.token.important {
-  color: #c94922;
-}
-.token.entity {
-  cursor: help;
 }
 .markdown-section pre > code {
   background-color: #080820;
@@ -972,25 +807,4 @@ pre:after {
 }
 body .pagination-item a {
   color: #47e1f2;
-}
-body .codecopy .codecopy-btn {
-  color: #fff;
-  background-image: linear-gradient(-180deg, #062f47, #1b1f23 90%);
-  border: 1px solid rgba(27, 31, 35, 0.2);
-  background-position: -1px -1px;
-  right: 7px;
-}
-body .codecopy .codecopy-btn:focus,
-body .codecopy .codecopy-btn:hover {
-  background-image: linear-gradient(-180deg, #062f47, #222c36 90%);
-  border: 1px solid rgba(27, 31, 35, 0.5);
-  background-position: -0.5em;
-}
-body .codecopy .codecopy-btn:active {
-  background: #062f47;
-  border: 1px solid rgba(27, 31, 35, 0.5);
-  box-shadow: inset 0 0.15em 0.3em rgba(27, 31, 35, 0.15);
-}
-body .codecopy .codecopy-btn-icon {
-  fill: #fff;
 }
