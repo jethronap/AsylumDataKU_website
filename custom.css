@@ -173,7 +173,7 @@ main {
   text-align: center;
   transition: opacity 0.3s;
   width: 300px;
-  background-color: #081020;
+  background-color: rgb(44, 22, 39);
   z-index: 4;
 }
 .sidebar-toggle .sidebar-toggle-button:hover {
@@ -452,7 +452,7 @@ section.cover.show {
   display: flex;
 }
 section.cover.has-mask .mask {
-  background-color: #081020;
+  background-color: rgb(44, 22, 39);
   opacity: 0.8;
   position: absolute;
   width: 100%;
@@ -460,7 +460,7 @@ section.cover.has-mask .mask {
 }
 .sidebar,
 body {
-  background-color: #081020;
+  background-color: rgb(44, 22, 39);
 }
 .sidebar {
   color: #364149;
