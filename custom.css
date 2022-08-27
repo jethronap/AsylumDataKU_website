@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro:300,400,600");
+/* @import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro:300,400,600"); */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap');
 * {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
@@ -44,8 +46,9 @@ html {
 }
 body {
   color: #999;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-family: 'Oswald', sans-serif;
+  /* font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace, serif; */
   font-size: 15px;
   letter-spacing: 0;
   margin: 0;
@@ -111,7 +114,7 @@ main {
   color: inherit;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: monospace;
+  font-family: 'Rubik Maze', cursive;
 }
 .sidebar > h1 .app-nav {
   display: block;
@@ -255,7 +258,7 @@ body.sticky .sidebar-toggle {
   border-radius: 100%;
   color: #081020;
   content: "i";
-  font-family: Dosis, Source Sans Pro, Helvetica Neue, Arial, sans-serif;
+  font-family: 'Dosis, Source Sans Pro, Helvetica Neue, Arial', sans-serif;
   font-size: 14px;
   font-weight: 700;
   left: -12px;
@@ -384,14 +387,15 @@ section.cover a:hover {
 }
 section.cover p {
   line-height: 1.75;
-  max-width: 24em;
+  max-width: 44em;
   margin: 0 auto;
 }
 section.cover h1 {
   margin: 0;
   color: inherit;
-  font-size: 2.5rem;
-  font-weight: 300;
+  font-size: 4.5rem;
+  font-weight: 400;
+  font-family: 'Rubik Maze', cursive;
   position: relative;
   text-align: center;
 }
