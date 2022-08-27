@@ -1,6 +1,5 @@
 /* @import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro:300,400,600"); */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Maze&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
 * {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
@@ -46,7 +45,7 @@ html {
 }
 body {
   color: #999;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   /* font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace, serif; */
   font-size: 15px;
@@ -58,7 +57,7 @@ body {
 img {
   max-width: 100%;
 }
-img[alt=wordcloud] {
+img[alt="wordcloud"] {
   max-width: 75%;
 }
 .github-corner {
@@ -114,7 +113,7 @@ main {
   color: inherit;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Rubik Maze', cursive;
+  font-family: "Rubik Maze", cursive;
 }
 .sidebar > h1 .app-nav {
   display: block;
@@ -258,7 +257,7 @@ body.sticky .sidebar-toggle {
   border-radius: 100%;
   color: #081020;
   content: "i";
-  font-family: 'Dosis, Source Sans Pro, Helvetica Neue, Arial', sans-serif;
+  font-family: "Dosis, Source Sans Pro, Helvetica Neue, Arial", sans-serif;
   font-size: 14px;
   font-weight: 700;
   left: -12px;
@@ -395,7 +394,7 @@ section.cover h1 {
   color: inherit;
   font-size: 4.5rem;
   font-weight: 400;
-  font-family: 'Rubik Maze', cursive;
+  font-family: "Rubik Maze", cursive;
   position: relative;
   text-align: center;
 }
@@ -404,7 +403,7 @@ section.cover h1 a {
 }
 section.cover h1 small {
   bottom: -0.4375rem;
-  font-size: 1rem;
+  font-size: 3rem;
   position: absolute;
 }
 section.cover blockquote {
@@ -570,7 +569,7 @@ body {
   margin: 0;
 }
 .markdown-section iframe {
-  background:#00aabd;
+  background: #00aabd;
   margin: 1em 0;
 }
 .markdown-section em {
