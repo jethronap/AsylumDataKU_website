@@ -1,6 +1,6 @@
 # Asylum data <small>analysis</small>
 
-> Mini website for communicating research results from the exploration of public and open databases.
+> Mini website for communicating `glimpses` and `glitches` from the exploration of data practices.
 
 <!-- [Proceed](project.md) -->
 
