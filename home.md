@@ -1,6 +1,6 @@
 # Analysing Asylum Data and Practices in Denmark
 
-Analysing data from the public data set of the Danish Appeals Board (Flygtningenævnet). All data for this analysis is being gathered from the database of **Flygtningenævnet** and can be reached [here](https://fln.dk/da/Praksis).
+Analysing data from the public data set of the **Danish Appeals Board (Flygtningenævnet)**. All data for this analysis is being gathered from the database of **Flygtningenævnet** and can be reached [here](https://fln.dk/da/Praksis).
 
 Databases and algorithms are `not self-explanatory` and the case of **Flygtningenævnet** shows how our research team came across a category `Unknown Homeland (Ukendt hjemland)` without appropriate a-priory explanations.
 
