@@ -1,10 +1,11 @@
 # Website contents
 
 Under **Theory** tab you can see some insights regarding:
+
+- Selected literature regarding the critical and participatory use of NLP, structural racism, bureaucracy.
 - N-gram analysis.
 - TF-IDF analysis.
 - Topic modelling algorithms used, especially LDA, NMF, LSI.
-- Selected literature regarding the critical and participatory use of NLP, structural racism, bureaucracy.
 
 Under **Analysis** tab you can see:
 - Results from text mining and exploratory analysis of text regarding to case that we marked as Unknown Homeland and all other cases.
