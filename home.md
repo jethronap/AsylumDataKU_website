@@ -14,6 +14,4 @@ In this project various text mining techniques and natural language processing h
 
 However, trying to work with `NLP` in a critical way our research team points out the need for some kind of collaborative action and processes which would require a `human-in-the-loop` set up. This way meaningful information can be extracted and also this could be a more fruitful exposure of the infrastructural condition that shape and make of of datasets like the one we are looking into here.  
 
-This website is a presentation of some theoretical aspects that fuelled the analysis and the results of the analysis per se.
-
 > This project is being realized at [Confronting Data Lab](https://www.confrontingdata.dk) @ DIKU.

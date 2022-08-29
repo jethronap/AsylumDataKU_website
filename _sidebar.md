@@ -3,6 +3,7 @@
 
 * [General Info](./info)
 * [Theory](./theory/theory)
+  * [Literature](./theory/literature)
   * [N-grams](./theory/ngrams)
   * [TF-IDF](./theory/tfidf)
   * [Latent Dirichlet Allocation](./theory/lda)
