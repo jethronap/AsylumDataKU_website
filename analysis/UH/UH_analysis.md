@@ -528,7 +528,7 @@ The same distribution presented through a horizontal barplot.
 
 ## N-gram analysis:
 
-You can check out the theory section of this report to get some insights regarding **n-grams**. They are for the most part combinations of words. For this project we wanted to see *pairs* of words with the highest frequency. The following diagram presents just that.
+You can check out the [theory](../../theory/ngrams.md) section of this report to get some insights regarding **n-grams**. They are for the most part combinations of words. For this project we wanted to see *pairs* of words with the highest frequency. The following diagram presents just that.
     
 ![png](_media/../../../_media/UH_analysis_files/UH_analysis_81_1.png)
     
@@ -536,7 +536,7 @@ You can check out the theory section of this report to get some insights regardi
 
 ## TF-IDF
 
-Again, **TF-IDF** is briefly explained in the theory section. In short, TF-IDF is a score given to each word. Having a high TF-IDF score means that this term can 'characterize' the whole corpus. Be careful this is not to be mixed with the notion of the most frequent word (highest frequency). By 'characterizing' a corpus means that this term is *special* for the corpus after having left out all other terms which are very common. This means that a high TF-IDF score is given to words with special weight on a corpus.
+Again, **TF-IDF** is briefly explained in the [theory](../../theory/tfidf.md) section. In short, TF-IDF is a score given to each word. Having a high TF-IDF score means that this term can 'characterize' the whole corpus. Be careful this is not to be mixed with the notion of the most frequent word (highest frequency). By 'characterizing' a corpus means that this term is *special* for the corpus after having left out all other terms which are very common. This means that a high TF-IDF score is given to words with special weight on a corpus.
 
 In order to get to TF-IDF scoring we need to create a vocabulary of all terms in our corpus after having processed all texts. The shape of the resulting vector of the vocabulary created from our given corpus consists of 189 texts with 4312 terms (or dimensions).
 

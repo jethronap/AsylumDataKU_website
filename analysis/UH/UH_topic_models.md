@@ -6,7 +6,7 @@ The **data** and **text** processing steps were replicated in order to implement
 
 ### Latent Dirichlet Allocation (LDA):
 
-The first algorithm used for topic modelling was the probabilistic model from LDA. The second step of our analysis had to do with deciding on the **number** of topics by using the metric of coherence score. For more details on LDA and coherence score please visit the `Theory` section.
+The first algorithm used for topic modelling was the probabilistic model from LDA. The second step of our analysis had to do with deciding on the **number** of topics by using the metric of coherence score. For more details on [LDA](../../theory/lda.md) and [coherence score](../../theory/coherence.md), please visit the `Theory` section.
 
     The coherence score for LDA (0.75) was highest with 10 topics.
 
@@ -91,7 +91,7 @@ Below we can see a visualization the topics produced by LDA with the help of `py
 
 ### Non-Negative Matrix Factorization (NMF):
 
-The second algorithm used was NMF a linear algebra method used to factorize the document-term-matrix.
+The second algorithm used was [NMF](../../theory/nmf.md) a linear algebra method used to factorize the document-term-matrix.
 
     The coherence score for NMF (0.74) was highest with 4 topics.
 
@@ -132,7 +132,7 @@ Building the model with the `optimal number of topics` gives the following outpu
 
 ### Latent Semantic Analysis/Indexing (LSA):
 
-Another algorithm for performing topic modeling is based on the so-called singular value decomposition (SVD), another method from linear algebra.
+Another algorithm for performing topic modeling is based on the so-called [singular value decomposition (SVD)](../../theory/lsi.md), another method from linear algebra.
 
     The coherence score for SVD (0.76) was highest with 8 topics.
 
