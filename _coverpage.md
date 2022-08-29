@@ -1,6 +1,6 @@
 # Asylum data <small>analysis</small>
 
-> Mini website for reporting and communicating research results from the Danish Refugee Apeals Board (Flygtningenævnet) database.
+> Mini website for communicating research results from the exploration of public and open databases.
 
 <!-- [Proceed](project.md) -->
 
