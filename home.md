@@ -1,6 +1,6 @@
 # Analysing Asylum Data and Practices in Denmark
 
-Analysing data from the public data set of the **Danish Appeals Board (Flygtningenævnet)**. All data for this analysis is being gathered from the database of **Flygtningenævnet** and can be reached [here](https://fln.dk/da/Praksis).
+Analysing data from the public data set of the **Danish Refugee Appeals Board (Flygtningenævnet)**. All data for this analysis is being gathered from the database of **Flygtningenævnet** and can be reached [here](https://fln.dk/da/Praksis).
 
 ### Our case:
 
