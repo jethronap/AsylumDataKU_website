@@ -60,6 +60,11 @@ img {
 img[alt="wordcloud"] {
   max-width: 75%;
 }
+img[alt="people"] {
+  float: left;
+  padding-right: 10px;
+  border-radius: 25px;
+}
 .github-corner {
   border-bottom: 0;
   position: fixed;
