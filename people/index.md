@@ -8,6 +8,11 @@ Below you can see all the people involved in this research project.
 
 <br/><br/>
 
+![people](../_media/people/vasilis.jpg) 
+
+<div style="text-align: right">Vasilis Vlachokyriakos is an Assistant Professor (lecturer) of Human-Computer Interaction and Digital Civics at Open Lab, Newcastle University, School of Computing and the founder of Open Lab Athens. His current work centres on designing novel socio-technical infrastructures for civic participation through place-based, participatory and action-led research, aiming at the development of systems for cooperative decision-making and service provision.</div>
+<br/><br/>
+
 ![people](../_media/people/trine.jpg) 
 
 <div style="text-align: right">Trine Rask Nielsen is a PhD student at the Department of Computer Science at University of Copenhagen and part of the Confronting Data Co-lab. Her current work centers on in understanding the technology-supported (collaborative) work practices and workflows that support the asylum procedure and, in this context, how data about the people applying for asylum are produced, stored, and shared across asylum actors, and used to inform asylum decisions.</div>
