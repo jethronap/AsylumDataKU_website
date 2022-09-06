@@ -19,6 +19,12 @@ Below you can see all the people involved in this research project.
 
 <br/><br/>
 
+![people](../_media/people/tijs.jpg) 
+
+<div style="text-align: right">Tijs Slaats is an assistant professor at the Human-Centered Computing section of the Department of Computer Science at Copenhagen University. His main research area is the field of Business Process Management, with a particular focus on declarative and hybrid process notations. A primary goal of his research is to provide technologies that facilitate flexible workflow support for knowledge workers.</div>
+
+<br/><br/>
+
 ![people](../_media/people/yannis.jpg) 
 
 <div style="text-align: right">Yannis is social researcher with a statistical background. He has worked with various academic institutes and has taken part in several european research projects. His base is located at the research collective Open Lab Athens. His interests involve data science, machine learning, Human-Computer Interaction and their disruptive uses. His work focuses on equality, social justice issues, and all the ingenious ways that people invent in order to re-shape the boundaries of our realities.</div> 
