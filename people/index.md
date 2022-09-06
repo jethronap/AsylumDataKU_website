@@ -13,6 +13,12 @@ Below you can see all the people involved in this research project.
 <div style="text-align: right">Trine Rask Nielsen is a PhD student at the Department of Computer Science at University of Copenhagen and part of the Confronting Data Co-lab. Her current work centers on in understanding the technology-supported (collaborative) work practices and workflows that support the asylum procedure and, in this context, how data about the people applying for asylum are produced, stored, and shared across asylum actors, and used to inform asylum decisions.</div>
 <br/><br/>
 
+![people](../_media/people/kristin.jpg)
+
+<div style="text-align: right">Kristin Kaltenhäuser is a PhD student at the Department of Computer Science, University of Copenhagen in the Software, Data, People and Society research section (SDPS). She has a master's degree in Software Design and Data Science, as well as in Intercultural Communication and Gender Studies. Drawing on participatory design and data science methods, her PhD is about informed sense-making of data in asylum decision-making in the Nordic countries, drawing on the experience of scholars, practitioners and policy-makers.</div>
+
+<br/>
+
 ![people](../_media/people/tina.jpg) 
 
 <div style="text-align: right">Tina Westergaard Milbak is a research assistant at the Department of Computer Science at University of Copenhagen and part of the Confronting Data Co-lab. Her work centers on design methodologies such as 'research through design' and speculative methods to challenge and confront dilemmas in the intersection of technology, people and society. Her practice unfolds both on a conceptual - as well as a visualizing level.</div>
