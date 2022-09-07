@@ -73,7 +73,7 @@ After chosing this cases we were left with **192** cases. Below we can see the t
 
 
 
-As it happens with data that were collected out-in-the-wild checking for potential duplicates and dropping them is always a good idea.
+As it happens with data that were collected `out-in-the-wild` checking for potential duplicates and dropping them is always a good idea. We opted of dropping duplicate entries based on their text description. If two entries had the same text they probably were duplicates and therefore should be dismissed.
 
 In the following table we can see those cases in our dataset.
 
