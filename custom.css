@@ -180,7 +180,7 @@ main {
   text-align: center;
   transition: opacity 0.3s;
   width: 300px;
-  background-color: rgb(44, 22, 39);
+  /* background-color: rgb(44, 22, 39); */
   z-index: 4;
 }
 .sidebar-toggle .sidebar-toggle-button:hover {
