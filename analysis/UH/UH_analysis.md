@@ -1,6 +1,7 @@
 # Unknown Homeland cases EDA:
 
-Firstly, we had to get all the case summaries that were uploaded to the open website of the Danish Refugee Appeals Board (Flygtningenævnet) found [here](https://fln.dk/da/Praksis). 
+Firstly, we had to get all the case summaries that were uploaded to the open website of the Danish Refugee Appeals Board (Flygtningenævnet) found [here](https://fln.dk/da/Praksis). The data were scraped by using the Python libraries *Beautifulsoup4* and *Selenium* on the **6th of June 2022**.
+
 After importing the scraped case summaries we got 9635 files with 5 columns each. The columns that were of interest were those that included:
 
 - Text of summaries.
@@ -8,6 +9,8 @@ After importing the scraped case summaries we got 9635 files with 5 columns each
 - Asylum motives.
 
 ## Dataset processing:
+
+In order to wrangle and manipulate the data the Python library *Pandas* was used.
 
 For the needs of this project and as former research had pointed out, cases that were denoted as **Unknown Homeland (Ukendt hjemland)** were kept.
 
